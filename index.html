@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap" rel="stylesheet">
+	<title>Startside | Davids Portfolie</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/main.js" defer></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header-main">
+			<figure class="logo" id="logo" onclick="changePage('index')">
+				<img src="./imgs/Placeholder.png" alt="hjemmeside logo">
+				<h1>David's Portfolio</h1>
+			</figure>
+
+			<figure id="burger-button" class="burger-button">
+				<img src="./imgs/Placeholder.png" onclick="toggleBurger()" alt="Menu" class="button">
+			</figure>
+		</div>
+		<div id="burger-menu" class="header-burger">
+			<nav id="nav-bar">
+				<a class="bar-item selected-item" href="#" onclick="changePage('index')">FORSIDE</a>
+				<a class="bar-item" href="#" onclick="changePage('mig')">OM MIG</a>
+				<a class="bar-item" href="#" onclick="changePage('portfolio')">CV OG PORTEFØLJE</a>
+				<a class="bar-item" href="#" onclick="changePage('kontakt')">KONTAKT MIG</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main-content">
+		<h1>INDHOLD KOMMER SNART!</h1>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-box">
+			<h1>ADRESSE</h1>
+			<p>Østrup Skovvej 2,</p>
+			<p>4350 Ugerløse</p>
+		</div>
+		<div class="footer-box">
+			<h1>ONLINE KONTO</h1>
+			<p><a href="https://github.com/KatyTye" target="_blank">Github,</a></p>
+			<p><a href="https://discord.com" target="_blank">Discord</p>
+		</div>
+		<div class="footer-box">
+			<h1><a href="#" onclick="changePage('kontakt')">KONTAKT MIG</a></h1>
+			<p>E-Mail: <a href="mailto:d.boy.dragoz@gmail.com">d.boy.dragoz@gmail.com</a></p>
+			<p>Tlf: <a href="tel:+4542348828">42 34 88 28</a></p>
+		</div>
+	</footer>
+</body>
+</html>
