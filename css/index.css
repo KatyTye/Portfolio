@@ -60,3 +60,9 @@
 .main-selectors .button-article h2 {
 	margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+	.main-selectors {
+		gap: 15vh;
+	}
+}
