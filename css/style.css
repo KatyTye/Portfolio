@@ -15,6 +15,11 @@ img, svg, video {
 	max-width: 100%;
 }
 
+h1, h2, h3, h4 {
+	font-family: "Sigmar", serif;
+	font-weight: 400;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -34,8 +39,12 @@ body {
 	align-items: center;
 	align-content: flex-start;
 	justify-content: space-between;
-	gap: 25px;
 	min-height: 100vh;
+}
+
+.font {
+	font-family: "M PLUS Rounded 1c", static;
+	font-size: 0.9rem;
 }
 
 /* -------------------------- HEADER */
@@ -43,6 +52,8 @@ body {
 #logo {
 	display: flex;
 	align-items: center;
+	width: fit-content;
+	cursor: pointer;
 }
 
 #logo img {
@@ -50,8 +61,6 @@ body {
 }
 
 #logo h1 {
-	font-family: "Sigmar", serif;
-	font-weight: 400;
 	font-size: large;
 	margin: 0;
 	margin-left: 5px;
@@ -84,6 +93,7 @@ body {
 
 .burger-button {
 	display: none;
+	cursor: pointer;
 }
 
 header {
@@ -111,13 +121,37 @@ header div > figure {
 
 main {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	width: 100%;
+	height: fit-content;
+	gap: 25px;
 }
 
-main h1 {
-	font-family: "Sigmar", serif;
-	font-weight: 400;
+main > h1 {
 	text-align: center;
+}
+
+.black-button {
+	background-color: transparent;
+	border-color: black;
+	border: 2px;
+	border-style: solid;
+	color: black;
+	font-weight: bold;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.white-button {
+	background-color: transparent;
+	border-color: white;
+	border-top: 2px;
+	color: white;
+	font-weight: bold;
+	border-style: solid;
+	padding: 5px 10px;
+	cursor: pointer;
 }
 
 /* -------------------------- FOOTER */
@@ -125,7 +159,6 @@ main h1 {
 footer {
 	background-color: var(--primary-background-color);
 	display: flex;
-	justify-content: space-between;
 	width: 100%;
 	min-height: 9vh;
 	max-height: fit-content;
@@ -133,9 +166,12 @@ footer {
 	padding: 2vh 4%;
 }
 
+.footer-box {
+	width: 215px;
+	margin: auto;
+}
+
 .footer-box > h1 {
-	font-family: "Sigmar", serif;
-	font-weight: 400;
 	font-size: large;
 }
 
@@ -147,6 +183,16 @@ footer {
 
 .footer-box a {
 	color: var(--secondary-text-color);
+}
+
+.footer-flex p {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.footer-flex img {
+	width: 2vh;
 }
 
 /* -------------------------- PHONE EDITION */
@@ -162,7 +208,7 @@ footer {
 
 	.burger-button .button {
 		margin: auto;
-		width: 5vh;
+		width: 3vh;
 	}
 
 	header {
@@ -191,7 +237,11 @@ footer {
 
 	/* ------- MAIN */
 	
-	
+	.main-selectors {
+		flex-direction: column;
+		align-items: center;
+		padding: 5vh 0;
+	}
 	
 	/* ------- FOOTER */
 	
