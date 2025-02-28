@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap"
+		rel="stylesheet">
 	<title>Startside | Davids Portfolie</title>
-	<link rel="icon" href="./imgs/icon.png">
+	<link rel="icon" href="./imgs/logo.png">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/index.css">
 	<script src="./js/main.js" defer></script>
+	<script src="./js/index.js" defer></script>
 </head>
+
 <body>
 	<header class="header">
 		<div class="header-main">
 			<figure class="logo" id="logo" onclick="changePage('index')">
-				<img src="./imgs/icon.png" alt="hjemmeside logo">
+				<img src="./imgs/logo.png" alt="hjemmeside logo">
 				<h1>David's Portfolio</h1>
 			</figure>
 
@@ -37,17 +44,28 @@
 
 	<main class="main-content">
 		<section class="main-image-section">
-			<h1 class="main-image-title">VELKOMMEN TIL MIN HJEMMESIDE!</h1>
-			<p class="font">Her kan du finde informationer om mig samt alt det faglige,</p>
-			<p class="font">jeg har gjort. Du kan udforske hjemmesiden eller kontakte mig</p>
-			<p class="font">ved at klikke på knappen nedenfor!</p>
-			<a class="white-button" onclick="changePage('kontakt')">KLIK HER</a>
+			<div id="slider-section"></div>
+			<div id="slider-content">
+				<h1 class="main-image-title">VELKOMMEN TIL MIN HJEMMESIDE!</h1>
+				<p class="font">
+					Her kan du finde informationer om mig samt alt det faglige,
+					jeg har gjort. Du kan udforske hjemmesiden eller kontakte mig
+					ved at klikke på knappen nedenfor!
+				</p>
+				<a class="white-button" onclick="changePage('kontakt')">KLIK HER</a>
+			</div>
+			
+			<div class="dots">
+				<span class="dot slide-active" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
 		</section>
 
 		<section class="main-selectors">
 			<article class="button-article">
 				<figure class="img-article">
-					<img src="./imgs/mig.png" alt="">
+					<img src="./imgs/mig.png" alt="om mig billede" loading="lazy">
 				</figure>
 				<h2>MIG</h2>
 				<p class="font">
@@ -61,7 +79,7 @@
 
 			<article class="button-article">
 				<figure class="img-article">
-					<img src="./imgs/cv.png" alt="">
+					<img src="./imgs/cv.png" alt="cv billede" loading="lazy">
 				</figure>
 				<h2>CV</h2>
 				<p class="font">
@@ -74,7 +92,7 @@
 
 			<article class="button-article">
 				<figure class="img-article">
-					<img src="./imgs/portfolio.png" alt="">
+					<img src="./imgs/portfolio.png" alt="portfolio billede" loading="lazy">
 				</figure>
 				<h2>PORTFOLIO</h2>
 				<p class="font">
@@ -86,7 +104,7 @@
 			</article>
 			<article class="button-article">
 				<figure class="img-article">
-					<img src="./imgs/kontakt.png" alt="">
+					<img src="./imgs/kontakt.png" alt="kontakt billede" loading="lazy">
 				</figure>
 				<h2>KONTAKT</h2>
 				<p class="font">
@@ -99,17 +117,19 @@
 			</article>
 		</section>
 	</main>
-	
+
 	<footer class="footer">
 		<div class="footer-box">
 			<h1>ADRESSE</h1>
 			<p><a href="https://maps.app.goo.gl/MrWeTg8nPnSP3QqS8" target="_blank">Østrup Skovvej 2,</a></p>
-			<p>4350 Ugerløse</p>
+			<p><a href="https://maps.app.goo.gl/by3o3neHn347SKit8" target="_blank">4350 Ugerløse</a></p>
 		</div>
 		<div class="footer-box footer-flex">
 			<h1>ONLINE KONTO</h1>
-			<p><img src="./imgs/icons/github.png" alt=""><a href="https://github.com/KatyTye" target="_blank">Github</a></p>
-			<p><img src="./imgs/icons/discord.png" alt=""><a href="https://discord.gg/MhtgFEYeMA" target="_blank">Discord</a></p>
+			<p><img src="./imgs/icons/github.png" alt=""><a href="https://github.com/KatyTye" target="_blank">Github</a>
+			</p>
+			<p><img src="./imgs/icons/discord.png" alt=""><a href="https://discord.gg/MhtgFEYeMA"
+					target="_blank">Discord</a></p>
 		</div>
 		<div class="footer-box">
 			<h1><a href="#" onclick="changePage('kontakt')">KONTAKT MIG</a></h1>
@@ -118,4 +138,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>

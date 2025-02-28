@@ -3,18 +3,55 @@
 */
 
 .main-image-section {
-	display: inherit;
+	background-color: black;
+	position: relative;
+	width: 100%;
+	height: 91vh;
+}
+
+#slider-content {
+	color: white;
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	color: white;
+}
+
+#slider-section {
 	width: 100%;
-	height: 91vh;
-	background-image: url(/imgs/HDPlaceholder.png);
+	height: 100%;
+	position: absolute;
+	background-image: url(/imgs/slide-billede-1.jpg);
 	background-repeat: no-repeat;
 	background-size: 200vh;
 	background-position: center;
+}
+
+.main-image-section .dots {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 95%;
+}
+
+.main-image-section .dot {
+	height: 15px;
+	width: 15px;
+	background-color: #bbbbbb70;
+	display: inline-block;
+	border-radius: 50%;
+	margin-left: 4px;
+	margin-right: 4px;
+	cursor: pointer;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+}
+
+.dot:hover, .main-image-section .slide-active {
+	background-color: #555555;
 }
 
 .main-image-section h1, .main-image-section p {
@@ -24,7 +61,8 @@
 
 .main-image-section p {
 	margin-top: 0;
-	margin-bottom: 5px;
+	width: 35vh;
+	margin-bottom: 20px;
 }
 
 .main-selectors figure {
@@ -61,8 +99,32 @@
 	margin: 0;
 }
 
+@keyframes slide_from {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes slide_to {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	.main-selectors {
 		gap: 15vh;
+	}
+
+	.main-image-section {
+		background-size: 136vh;
 	}
 }

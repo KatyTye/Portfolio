@@ -2,3 +2,24 @@
 	KONTAKT MAIN CSS
 */
 
+.kontakt-form {
+	display: none;
+}
+
+.main-content div h1 {
+	text-align: center;
+}
+
+#kontakt-form {
+	display: flex;
+	flex-direction: column;
+}
+
+#kontakt-form input, #kontakt-form textarea, #kontakt-form button {
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+#kontakt-form textarea {
+	height: 125px;
+}
