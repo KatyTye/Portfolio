@@ -2,6 +2,66 @@
 	INDEX MAIN CSS
 */
 
+main {
+	gap: 75px;
+}
+
+.button-article {
+	cursor: pointer;
+}
+
+.projekts {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2vh;
+	height: 53vh;
+	background-color: rgb(15, 15, 15);
+	margin-bottom: 10vh;
+}
+
+.projekts .figure-image img {
+	height: 100%;
+}
+
+.projekts .figure-image {
+	position: relative;
+	width: 40%;
+	height: 100%;
+	display: inherit;
+	align-items: center;
+}
+
+.projekts .projekts-article {
+	padding: 4vh;
+	width: 60%;
+	height: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 75%, rgb(15, 15, 15) 100%);
+	pointer-events: none;
+}
+
+.projekts-article p {
+	font-family: "M PLUS Rounded 1c", static;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	color: rgb(254, 254, 254);
+	margin-bottom: 25px;
+}
+
+.projekts-article h2 {
+	color: rgb(254, 254, 254);
+}
+
 .main-image-section {
 	background-color: black;
 	position: relative;
@@ -120,6 +180,25 @@
 }
 
 @media screen and (max-width: 800px) {
+	.projekts {
+		flex-direction: column;
+		height: 110vh;
+		margin: 0;
+	}
+
+	.projekts .figure-image {
+		width: 100%;
+		height: auto;
+	}
+
+	.projekts .projekts-article {
+		width: 100%;
+	}
+
+	.projekts .figure-image .overlay {
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgb(15, 15, 15) 100%);
+	}
+
 	.main-selectors {
 		gap: 15vh;
 	}

@@ -44,7 +44,7 @@
 
 	<main class="main-content">
 		<section class="main-image-section">
-			<div id="slider-section"></div>
+			<div id="slider-section" loading="lazy"></div>
 			<div id="slider-content">
 				<h1 class="main-image-title">VELKOMMEN TIL MIN HJEMMESIDE!</h1>
 				<p class="font">
@@ -52,9 +52,9 @@
 					jeg har gjort. Du kan udforske hjemmesiden eller kontakte mig
 					ved at klikke på knappen nedenfor!
 				</p>
-				<a class="white-button" onclick="changePage('kontakt')">KLIK HER</a>
+				<a class="white-button" onclick="changePage('kontakt')">KONTAKT MIG</a>
 			</div>
-			
+
 			<div class="dots">
 				<span class="dot slide-active" onclick="currentSlide(1)"></span>
 				<span class="dot" onclick="currentSlide(2)"></span>
@@ -63,7 +63,7 @@
 		</section>
 
 		<section class="main-selectors">
-			<article class="button-article">
+			<article class="button-article" onclick="changePage('mig')">
 				<figure class="img-article">
 					<img src="./imgs/mig.png" alt="om mig billede" loading="lazy">
 				</figure>
@@ -74,10 +74,9 @@
 					<span>jeg bruger min tid på forskellige hobbyer</span>
 					<span>samt aktiviteter.</span>
 				</p>
-				<a class="black-button" onclick="changePage('mig')">KLIK HER</a>
 			</article>
 
-			<article class="button-article">
+			<article class="button-article" onclick="changePage('portfolio', 'cv-content')">
 				<figure class="img-article">
 					<img src="./imgs/cv.png" alt="cv billede" loading="lazy">
 				</figure>
@@ -87,10 +86,9 @@
 					<span>jeg opfylder alle jeres krav til den</span>
 					<span>stilling, I søger at besætte.</span>
 				</p>
-				<a class="black-button" onclick="changePage('portfolio', 'cv-content')">KLIK HER</a>
 			</article>
 
-			<article class="button-article">
+			<article class="button-article" onclick="changePage('portfolio', 'port-content')">
 				<figure class="img-article">
 					<img src="./imgs/portfolio.png" alt="portfolio billede" loading="lazy">
 				</figure>
@@ -100,9 +98,8 @@
 					<span>de portfolioer, jeg har skabt gennem mit</span>
 					<span>liv på forskellige uddanelser og steder.</span>
 				</p>
-				<a class="black-button" onclick="changePage('portfolio', 'port-content')">KLIK HER</a>
 			</article>
-			<article class="button-article">
+			<article class="button-article" onclick="changePage('kontakt')">
 				<figure class="img-article">
 					<img src="./imgs/kontakt.png" alt="kontakt billede" loading="lazy">
 				</figure>
@@ -113,7 +110,21 @@
 					<span>vende tilbage til jer så hurtigt som</span>
 					<span>muligt.</span>
 				</p>
-				<a class="black-button" onclick="changePage('kontakt')">KLIK HER</a>
+			</article>
+		</section>
+
+		<section class="projekts">
+			<figure class="figure-image">
+				<img src="./imgs/projekter.jpg" alt="billede af projekter" loading="lazy">
+				<div class="overlay"></div>
+			</figure>
+			<article class="projekts-article">
+				<h2>PERSONLIGE PROJEKTER</h2>
+				<p><span>Selvstændige projekter har altid været en vigtig del af mit liv. Jeg har kastet mig ud i alt
+						fra at lære at kode til at</span><span>bygge min egen hjemmeside. Disse projekter har ikke kun
+						givet mig nye færdigheder,</span><span>men også en dybere forståelse af mine egne interesser og
+						passioner. For eksempel</span><span>har jeg for nylig startet et projekt med forest konsol,</span><span>hvilket er en utrolig givende oplevelse med python.</span></p>
+				<a class="white-button" onclick="changePage('projekter')">PROJEKTER</a>
 			</article>
 		</section>
 	</main>
