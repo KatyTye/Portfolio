@@ -37,18 +37,41 @@
 	</header>
 
 	<main class="main-content">
-		<h1>INDHOLD KOMMER SNART</h1>
-		<div class="kontakt-form">
+		<!-- <h1>INDHOLD KOMMER SNART</h1> -->
+		 <section class="kontakt-info">
+			<div class="oh">
+				<h3>OPLYSNINGS HÅNDTERING</h3>
+				<p>
+					<span>Ved at sende via kontaktformularen, sender</span>
+					<span>du kun dit fornavn samt efternavn og email.</span>
+					<span>Disse oplysninger bilver KUN brugt til private</span>
+					<span>samtaler i fremtiden når vi skaber kontakt.</span>
+				</p>
+			</div>
+
+			<div class="respons">
+				<h3>MIN RESPONSTID</h3>
+				<p>
+					<span>Når du sender via kontaktformularen, ville</span>
+					<span>jeg nemmer kunde find dig iblandt alle andre mails.</span>
+					<span>Dette ville gøre så du kan får kontakt med mig,</span>
+					<span>indefor de næste 24 timer fra din sendelse.</span>
+				</p>
+			</div>
+
+		</section>
+
+		<section class="kontakt-form">
 			<h1>KONTAKTFORMULAR</h1>
 			<form id="kontakt-form" target="_blank" action="https://formsubmit.co/d.boy.dragoz@gmail.com" method="POST">
 				<input type="hidden" name="_next" value="https://david-majholt-portfolie.netlify.app/kontakt.html?submitted=tak">
-				<input type="text" name="first name" class="InputBox" placeholder="Fornavn" required>
-				<input type="text" name="last name" class="InputBox" placeholder="Efternavn" required>
-				<input type="email" name="email" class="InputBox" placeholder="E-Mail" required>
-				<textarea placeholder="Din besked" class="InputBox" name="besked" required></textarea>
+				<input type="text" name="first name" class="InputBox" placeholder="Skriv dit fornavn." required>
+				<input type="email" name="email" class="InputBox" placeholder="Skriv din e-mail." required>
+				<input type="text" name="topic" class="InputBox" placeholder="Skriv navnet på emned." required>
+				<textarea placeholder="Hvad ville du skrive om?" class="InputBox" name="besked" required></textarea>
 				<button type="submit">SEND</button>
 			</form>
-		</div>
+		</section>
 		<div id="form-output"></div>
 	</main>
 	

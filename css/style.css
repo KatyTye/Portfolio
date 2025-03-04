@@ -154,6 +154,12 @@ main > h1 {
 	cursor: pointer;
 }
 
+.button-hover:hover {
+	width: 16vh;
+	height: 4vh;
+	padding-top: 8px;
+}
+
 /* -------------------------- FOOTER */
 
 footer {
