@@ -1,6 +1,6 @@
 function changePage(input, extra) {
 	if (extra) {
-		window.location = input + ".html#" + extra
+		window.location = input + ".html?type=" + extra
 	} else {
 		window.location = input + ".html"
 	}

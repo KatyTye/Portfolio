@@ -4,14 +4,16 @@ let cvSection = document.getElementById("cv-section")
 let SearchString = new URL(window.location.href)
 let Search = SearchString.searchParams.get("type")
 
-if (Search == "cv") {
-	let DomElement = document.querySelector(".main-cv .main-article")
-	DomElement.classList.toggle("hidden-article")
-	document.querySelector(".main-cv .checkout").innerHTML = "&#x22C0"
-} else if (Search == "portfolio") {
-	let DomElement = document.querySelector(".main-port .main-article")
-	DomElement.classList.toggle("hidden-article")
-	document.querySelector(".main-port .checkout").innerHTML = "&#x22C0"
+if (Search) {
+	if (Search == "cv") {
+		let DomElement = document.querySelector(".main-cv .main-article")
+		DomElement.classList.toggle("hidden-article")
+		document.querySelector(".main-cv .checkout").innerHTML = "&#x22C0"
+	} else if (Search == "portfolio") {
+		let DomElement = document.querySelector(".main-port .main-article")
+		DomElement.classList.toggle("hidden-article")
+		document.querySelector(".main-port .checkout").innerHTML = "&#x22C0"
+	}
 }
 
 function toggleMenu(input, cElm) {

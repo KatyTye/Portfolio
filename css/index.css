@@ -16,7 +16,7 @@ main {
 	align-items: center;
 	justify-content: flex-start;
 	gap: 2vh;
-	height: 53vh;
+	height: fit-content;
 	background-color: rgb(15, 15, 15);
 	margin-bottom: 10vh;
 }
@@ -27,7 +27,7 @@ main {
 
 .projekts .figure-image {
 	position: relative;
-	width: 40%;
+	width: 100vh;
 	height: 100%;
 	display: inherit;
 	align-items: center;
@@ -35,7 +35,6 @@ main {
 
 .projekts .projekts-article {
 	padding: 4vh;
-	width: 60%;
 	height: 100%;
 }
 
@@ -176,6 +175,28 @@ main {
 
 	to {
 		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 1315px) {
+	.projekts .figure-image .overlay {
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgb(15, 15, 15) 100%);
+		height: 101%;
+	}
+
+	.projekts {
+		flex-direction: column;
+		height: fit-content;
+		margin: 0;
+	}
+
+	.projekts .figure-image {
+		width: 100%;
+		height: auto;
+	}
+
+	.main-selectors {
+		flex-wrap: wrap;
 	}
 }
 

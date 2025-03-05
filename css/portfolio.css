@@ -22,6 +22,12 @@
 	gap: 2vh;
 }
 
+.main-article .list .changeSpan span {
+	display: flex;
+	flex-direction: column;
+	font-weight: normal;
+}
+
 .article-img {
 	width: 20vh;
 }
@@ -40,8 +46,16 @@
 	font-family: "M PLUS Rounded 1c", static;
 }
 
+.main-article > h1 {
+	font-size: 1.5rem;
+}
+
 .hidden-article {
 	display: none;
+}
+
+.port-section .main-port .main-article ul li a {
+	font-weight: bold;
 }
 
 .cv-section, .port-section {
@@ -90,6 +104,19 @@ article nav {
 	align-items: center;
 	width: 100%;
 	height: 6vh;
+}
+
+#port-section .main-port .main-article h3 {
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+#cv-section .main-article .boldSpan {
+	display: block;
+}
+
+#cv-section .main-article .boldSpan span {
+	font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
