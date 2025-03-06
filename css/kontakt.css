@@ -7,13 +7,13 @@ main {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	height: 73vh;
 	padding: 12vh;
+	background-image: url(/imgs/kontakt-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+	text-shadow: 0px 0px 1px white;
 }
-
-/* .kontakt-form {
-	display: none !important;
-} */
 
 .main-content div h1 {
 	text-align: center;
@@ -57,7 +57,20 @@ main {
 
 .oh, .respons {
 	padding: 25px;
-	background-color: rgb(180, 180, 180);
+	background-color: rgba(220, 220, 220, 0.75);
+}
+
+input, textarea {
+	background-color: transparent;
+	border-color: white;
+    border-style: solid;
+	border-width: thin;
+	color: white;
+}
+
+::placeholder {
+	color: white;
+	opacity: 0.5;
 }
 
 #kontakt-form input, #kontakt-form textarea, #kontakt-form button {
@@ -66,6 +79,16 @@ main {
 
 #form-output {
 	margin: auto;
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+}
+
+#form-output p {
+	font-family: "M PLUS Rounded 1c", static;
+	display: inherit;
+	flex-direction: inherit;
+	align-items: inherit;
 }
 
 #kontakt-form textarea {
@@ -74,11 +97,11 @@ main {
 
 #kontakt-form button {
 	border: none;
-	background-color: #000;
+	background-color: white;
 	font-family: "M PLUS Rounded 1c", static;
 	font-weight: bold;
 	font-size: 1.5vh;
-	color: white;
+	color: black;
 	cursor: pointer;
 	margin: 0;
 }

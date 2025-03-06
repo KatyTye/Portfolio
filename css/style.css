@@ -126,6 +126,7 @@ main {
 	width: 100%;
 	height: fit-content;
 	gap: 25px;
+	min-height: 91vh;
 }
 
 main > h1 {

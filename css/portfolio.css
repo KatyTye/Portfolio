@@ -97,7 +97,7 @@ article .checkout {
 }
 
 article nav {
-	background-color: rgb(190, 190, 190);
+	background-color: rgba(0, 0, 0, 0.25);
 	padding: 2vh;
 	cursor: pointer;
 	display: flex;
@@ -117,6 +117,16 @@ article nav {
 
 #cv-section .main-article .boldSpan span {
 	font-weight: bold;
+}
+
+#main-content {
+	background-image: url(/imgs/portfolio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 290vh;
+    padding: 24vh 0;
+    justify-content: center;
+	color: white;
+	text-shadow: 0px 0px 2px black;
 }
 
 @media screen and (max-width: 800px) {
