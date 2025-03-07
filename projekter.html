@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/projekter.css">
 	<script src="./js/main.js" defer></script>
+	<script src="./js/projekter.js" defer></script>
 </head>
 <body>
 	<header class="header">
@@ -27,16 +28,65 @@
 		</div>
 		<div id="burger-menu" class="header-burger">
 			<nav id="nav-bar">
-				<a class="bar-item" href="#" onclick="changePage('index')">FORSIDE</a>
-				<a class="bar-item" href="#" onclick="changePage('mig')">OM MIG</a>
-				<a class="bar-item" href="#" onclick="changePage('portfolio')">CV OG PORTFOLIO</a>
-				<a class="bar-item" href="#" onclick="changePage('kontakt')">KONTAKT MIG</a>
+				<a class="bar-item" href="#" title="Click her for at gå til forsiden." onclick="changePage('index')">FORSIDE</a>
+				<a class="bar-item" href="#" title="Click her for at gå til om mig siden." onclick="changePage('mig')">OM MIG</a>
+				<a class="bar-item" href="#" title="Click her for at gå til mine cv'er og portfolie." onclick="changePage('portfolio')">CV OG PORTFOLIO</a>
+				<a class="bar-item" href="#" title="Click her for at gå til kontakt siden." onclick="changePage('kontakt')">KONTAKT MIG</a>
 			</nav>
 		</div>
 	</header>
 
 	<main class="main-content">
-		<h1>INDHOLD KOMMER SNART</h1>
+		<section class="top-bar">
+			<h2 class="none">special projekt med python</h2>
+			<figure class="video">
+				<video id="first-video">
+					<source src="./videos/main-projekt-video.mp4" type="video/mp4">
+				</video>
+			</figure>
+			<article class="content">
+				<h2>PROJEKT SKOV</h2>
+				<p>
+					<span>Spillet handler om, at du er fanget/vågnet i en ukendt og mystisk skov. Du skal</span>
+					<span>udforske skoven og alt, hvad den har at byde på. Det er chancebaseret,</span>
+					<span>så du kan få forskellige resultater, selvom du gør det samme flere gange.</span>
+					<span>Før du spiller, har jeg et spørgsmål: KAN DU FINDE HJEM?</span>
+				</p>
+				<p>
+					<span>Dette projekt er lavet i Python og har indtil videre kun ét stadie. Det kan</span>
+					<span>kun køres af folk, der har installeret Python på deres enhed. Men det vil blive udgivet som</span>
+					<span>en EXE-launch-fil til dem, der gerne vil prøve det. Selve udgivelsen vil</span>
+					<span>blive på denne side, så download den nedenfor.</span>
+				</p>
+				<a class="white-button">EXE DOWNLOAD IKKE UDGIVET</a>
+				<a class="white-button">PYTHON DOWNLOAD IKKE UDGIVET</a>
+			</article>
+		</section>
+		<section class="top-bar">
+			<h2 class="none">special projekt med python</h2>
+			<figure class="video">
+				<video id="second-video">
+					<source src="./videos/second-projekt-video.mp4" type="video/mp4">
+				</video>
+			</figure>
+			<article class="content">
+				<h2>PROJEKT BANK</h2>
+				<p>
+					<span>Spillet handler om, at du er ved en bank terminal og du får nogle muligheder. Du kan</span>
+					<span>udforske de forskellige functioner, som den har at byde på. Det er loopbaseret,</span>
+					<span>så du ville få det samme resultat, selvom du gør det samme flere gange.</span>
+					<span>Før du spiller, har jeg et spørgsmål: HVOR MANGE PENGE KAN DU FÅ?</span>
+				</p>
+				<p>
+					<span>Dette projekt er lavet i Python og er indtil videre i sidste stadie. Det kan</span>
+					<span>kun køres af folk, der har installeret Python på deres enhed. Men det er også udgivet som</span>
+					<span>en EXE-launch-fil til dem, der gerne vil prøve det. Selve udgivelsen ligger</span>
+					<span>er på denne side, så download den nedenfor.</span>
+				</p>
+				<a class="white-button">EXE DOWNLOAD IKKE UDGIVET</a>
+				<a href="./files/bank.py" download="bank.py" target="_blank" class="white-button">DOWNLOAD PYTHON</a>
+			</article>
+		</section>
 	</main>
 	
 	<footer class="footer">

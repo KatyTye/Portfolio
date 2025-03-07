@@ -1,3 +1,65 @@
 /* 
 	PROJEKTER MAIN CSS
 */
+
+.main-content {
+	background-image: url(/imgs/projekts-background-main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 25px 0;
+}
+
+.main-content .top-bar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	height: fit-content;
+	color: white;
+}
+
+.main-content .top-bar figure, .main-content .top-bar article {
+	padding: 1vh;
+}
+
+.main-content .top-bar figure {
+	height: 100%;
+	width: 50%;
+}
+
+.main-content .top-bar article {
+	display: inherit;
+	flex-direction: column;
+	align-items: start;
+	gap: 25px;
+}
+
+.main-content .top-bar article p {
+	font-family: "M PLUS Rounded 1c", static;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+.main-content .top-bar article h2 {
+	margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+	body .main-content .video, .main-content section article button {
+		display: none;
+	}
+
+	.main-content .top-bar article {
+		align-items: center;
+		text-align: center;
+	}
+
+	.main-content .top-bar {
+		margin-bottom: 50px;
+	}
+
+	.main-content .top-bar article p, .main-content .top-bar article h2 {
+		text-align: center;
+	}
+}

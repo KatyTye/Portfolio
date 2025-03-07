@@ -34,19 +34,19 @@
 		</div>
 		<div id="burger-menu" class="header-burger">
 			<nav id="nav-bar">
-				<a class="bar-item selected-item" href="#" onclick="changePage('index')">FORSIDE</a>
-				<a class="bar-item" href="#" onclick="changePage('mig')">OM MIG</a>
-				<a class="bar-item" href="#" onclick="changePage('portfolio')">CV OG PORTFOLIO</a>
-				<a class="bar-item" href="#" onclick="changePage('kontakt')">KONTAKT MIG</a>
+				<a class="bar-item selected-item" href="#" title="Click her for at gå til forsiden." onclick="changePage('index')">FORSIDE</a>
+				<a class="bar-item" href="#" title="Click her for at gå til om mig siden." onclick="changePage('mig')">OM MIG</a>
+				<a class="bar-item" href="#" title="Click her for at gå til mine cv'er og portfolie." onclick="changePage('portfolio')">CV OG PORTFOLIO</a>
+				<a class="bar-item" href="#" title="Click her for at gå til kontakt siden." onclick="changePage('kontakt')">KONTAKT MIG</a>
 			</nav>
 		</div>
 	</header>
 
 	<main class="main-content">
 		<section class="main-image-section">
-			<div id="slider-section" loading="lazy"></div>
+			<div id="slider-section"></div>
 			<div id="slider-content">
-				<h1 class="main-image-title">VELKOMMEN TIL MIN HJEMMESIDE!</h1>
+				<h2 class="main-image-title">VELKOMMEN TIL MIN HJEMMESIDE!</h2>
 				<p class="font">
 					Her kan du finde informationer om mig samt alt det faglige,
 					jeg har gjort. Du kan udforske hjemmesiden eller kontakte mig
@@ -63,6 +63,7 @@
 		</section>
 
 		<section class="main-selectors">
+			<h2 class="none">mig information</h2>
 			<article class="button-article" onclick="changePage('mig')">
 				<figure class="img-article">
 					<img src="./imgs/mig.png" alt="om mig billede" loading="lazy">
@@ -114,6 +115,7 @@
 		</section>
 
 		<section class="projekts">
+			<h2 class="none">personlige projekter</h2>
 			<figure class="figure-image">
 				<img src="./imgs/projekter.jpg" alt="billede af projekter" loading="lazy">
 				<div class="overlay"></div>
