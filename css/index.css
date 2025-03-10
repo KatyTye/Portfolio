@@ -198,6 +198,10 @@ main {
 	.main-selectors {
 		flex-wrap: wrap;
 	}
+
+	.projekts .projekts-article {
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 800px) {

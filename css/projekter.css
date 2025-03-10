@@ -45,8 +45,8 @@
 	margin: 0;
 }
 
-@media screen and (max-width: 800px) {
-	body .main-content .video, .main-content section article button {
+@media screen and (max-width: 1390px) {
+	body .main-content .video, .main-content section article .white-button {
 		display: none;
 	}
 

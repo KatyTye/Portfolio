@@ -40,13 +40,14 @@
 	.main-content article {
 		display: flex;
 		flex-wrap: wrap;
+		text-align: center;
 	}
 
 	.main-content #mig > p {
 		width: 18rem;
 	}
 
-	.main-content article h1, .main-content article p {
-		width: fit-content;
+	.main-content article h2, .main-content #hobby p, .main-content #fremtid p, .main-content #mig p {
+		width: 100%;
 	}
 }
