@@ -64,10 +64,10 @@
 			<form id="kontakt-form" target="_blank" action="https://formsubmit.co/d.boy.dragoz@gmail.com" method="POST">
 				<h2>KONTAKTFORMULAR</h2>
 				<input type="hidden" name="_next" value="https://david-majholt-portfolie.netlify.app/kontakt.html?submitted=tak">
-				<input type="text" name="first name" class="InputBox" placeholder="Skriv dit fornavn." required>
-				<input type="email" name="email" class="InputBox" placeholder="Skriv din e-mail." required>
-				<input type="text" name="topic" class="InputBox" placeholder="Skriv navnet på emned." required>
-				<textarea placeholder="Hvad ville du skrive om?" class="InputBox" name="besked" required></textarea>
+				<input type="text" name="first name" class="InputBox" placeholder="Skriv dit fornavn." maxlength="60" required>
+				<input type="email" name="email" class="InputBox" placeholder="Skriv din e-mail." maxlength="60" required>
+				<input type="text" name="topic" class="InputBox" placeholder="Skriv navnet på emned." maxlength="60" required>
+				<textarea placeholder="Hvad ville du skrive om?" class="InputBox" name="besked" maxlength="500" required></textarea>
 				<button type="submit">SEND</button>
 			</form>
 		</section>

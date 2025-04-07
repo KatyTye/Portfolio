@@ -110,6 +110,10 @@ input, textarea {
 	resize: none;
 }
 
+#kontakt-form textarea:focus, #kontakt-form input {
+	outline: none;
+}
+
 @media screen and (max-width: 1185px) {
 	.main-content {
 		flex-direction: column;
