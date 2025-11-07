@@ -1,0 +1,17 @@
+@use "./_colors.sass" as var
+
+.bottom-content
+	height: 60px
+	display: flex
+	padding: 5px 25px
+	align-items: center
+	justify-content: inherit
+	transition: background 0.3s
+	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
+
+	&__button
+		width: 25px
+		height: 25px
+		display: block
+		transition: color 0.5s
+		color: light-dark(var.$primary-text-color, var.$secondary-text-color)

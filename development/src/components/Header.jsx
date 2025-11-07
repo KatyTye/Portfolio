@@ -1,7 +1,7 @@
-import { useEffect } from "react"
 import Logo from "../assets/icons/logo.svg?react"
 import Sun from "../assets/icons/sun.svg?react"
 import { Link, NavLink } from "react-router"
+import { useEffect } from "react"
 
 export default function Header() {
 
@@ -15,10 +15,25 @@ export default function Header() {
 		}
 	}
 
+	function returnUpdatedTarget(oldTarget) {
+		const TEMP_TARGET = oldTarget.parentElement.parentElement.parentElement
+
+		if (TEMP_TARGET.id == "root") {
+			return TEMP_TARGET
+
+		} else if (TEMP_TARGET.className.includes("navigation")) {
+			return TEMP_TARGET.parentElement.parentElement
+
+		}
+
+		return TEMP_TARGET.parentElement
+	}
+
 	function toggleDarkMode(target) {
 		const CURRENT = localStorage.getItem("darkMode") || "enabled"
-		const TEMP_TARGET = target.parentElement.parentElement.parentElement
-		const NEW_TARGET = (TEMP_TARGET.id == "root") ? TEMP_TARGET : TEMP_TARGET.parentElement;
+		const NEW_TARGET = returnUpdatedTarget(target)
+
+		console.log(returnUpdatedTarget(target))
 
 		if (CURRENT == "enabled") {
 			localStorage.setItem("darkMode", "disabled")
@@ -31,20 +46,19 @@ export default function Header() {
 
 	return (
 		<header className="top-content">
-			<Link to={"/"} className="top-content__logo">
+			<Link to={"/"} className="top-content__logo" tabIndex={1} rel="alternate">
 				<Logo className={"top-content__logo-icon"} />
 				<h2 className="top-content__logo-title">Davids Portfolio</h2>
 			</Link>
 
 			<nav className="top-content__navigation">
-				<NavLink className="top-content__navigation-link" to={"/"}>Home</NavLink>
-				<NavLink className="top-content__navigation-link" to={"/projects"}>Projects</NavLink>
-				<NavLink className="top-content__navigation-link" to={"/about"}>About Me</NavLink>
+				<NavLink className="top-content__navigation-link" tabIndex={2} to={"/"} rel="alternate">Home</NavLink>
+				<NavLink className="top-content__navigation-link" tabIndex={3} to={"/projects"} rel="alternate">Projects</NavLink>
+				<NavLink className="top-content__navigation-link" tabIndex={4} to={"/about"} rel="alternate">About Me</NavLink>
+				<figure className="top-content__navigation-mode" tabIndex={5} title="Toggle dark mode" onClick={event => toggleDarkMode(event.target)}>
+					<Sun className="top-content__mode-icon" />
+				</figure>
 			</nav>
-
-			<figure className="top-content__mode" title="Toggle dark mode" onClick={event => toggleDarkMode(event.target)}>
-				<Sun className="top-content__mode-icon" />
-			</figure>
 		</header>
 	)
 }

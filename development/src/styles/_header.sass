@@ -2,39 +2,42 @@
 
 .top-content
 	gap: 25px
-	height: 50px
+	height: 60px
 	display: flex
 	align-items: center
-	margin-bottom: 25px
-	padding: 0 25px
+	padding: 5px 25px
+	justify-content: inherit
 	transition: background 0.3s
-	justify-content: space-between
 	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
 
 	&__logo
 		gap: 10px
 		display: inherit
 		align-items: center
+		color: light-dark(var.$primary-text-color, var.$secondary-text-color)
 
 		&:hover
 			text-decoration: none
 			color: var.$secondary-link-color
 
-			& h2
-				color: inherit
-
 		&-title
+			color: inherit
 			font-size: 16px
 			transition: color 0.5s
 
 		&-icon
-			width: 50px
-			color: light-dark(var.$secondary-text-color, var.$primary-text-color)
+			width: 25px
+			height: 25px
+			color: inherit
+			transition: color 0.5s
 
 	&__navigation
+		gap: 20px
+		display: inherit
+		align-items: center
+		justify-content: space-between
 
 		&-link
-			margin: 0 10px
 			text-align: center
 			width: fit-content
 			padding-bottom: 2px
@@ -48,10 +51,16 @@
 				text-decoration: none
 				border-bottom: 2px solid var.$secondary-link-color
 
-	&__mode
-		height: 25px
-		cursor: pointer
-		color: light-dark(var.$secondary-background-color, var.$primary-background-color)
+		&-mode
+			height: 25px
+			width: 25px
+			cursor: pointer
+			transition: color 0.5s
+			transform: translateY(-2.5px)
+			color: light-dark(var.$secondary-background-color, var.$primary-background-color)
 
-		&-icon
-			width: inherit
+			&:hover
+				color: var.$secondary-link-color
+
+			&-icon
+				width: fit-content
