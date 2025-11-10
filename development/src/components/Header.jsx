@@ -33,8 +33,6 @@ export default function Header() {
 		const CURRENT = localStorage.getItem("darkMode") || "enabled"
 		const NEW_TARGET = returnUpdatedTarget(target)
 
-		console.log(returnUpdatedTarget(target))
-
 		if (CURRENT == "enabled") {
 			localStorage.setItem("darkMode", "disabled")
 			NEW_TARGET.classList.remove("dark")

@@ -1,0 +1,36 @@
+{
+	"english": [
+		{
+			"textID": 1,
+			"article": "intro",
+			"title": "David Kirk Bilsted Majholt",
+			"subtitle": {
+				"colored": true,
+				"color": "yellow",
+				"hover": "Please expect a delayed response.",
+				"text": "Currently studying at Roskilde Technical School."
+			},
+			"content": {
+				"section 1": "I'm a person with many skills, especially in web development, which I'm currently studying. I often work independently and can handle most tasks on my own, but I also enjoy working in groups when needed. My social skills allow me to communicate easily with others, though I sometimes take a couple of months to remember people's names.",
+				"section 2": "My personal hobbies are closely related to my education - I spend much of my free time programming, mainly developing games on platforms like Roblox, Minecraft, and Steam."
+			}
+		}
+	],
+	"danish": [
+		{
+			"textID": 1,
+			"article": "me",
+			"title": "David Kirk Bilsted Majholt",
+			"subtitle": {
+				"colored": true,
+				"color": "yellow",
+				"hover": "Forvent venligst et forsinket svar.",
+				"text": "Under uddannelse på Roskilde Tekniske Skole."
+			},
+			"content": {
+				"section 1": "Jeg er en person med mange færdigheder, især inden for webudvikling, som jeg også er under uddannelse i. Jeg arbejder ofte selvstændigt og kan løse de fleste opgaver alene, men jeg trives også i gruppearbejde, når det er nødvendigt. Mine sociale evner gør, at jeg nemt kan tale med folk uden problemer - dog er jeg ikke altid den bedste til at huske navne før efter et par måneder.",
+				"section 2": "Mine personlige hobbyer hænger tæt sammen med min uddannelse; jeg programmerer i min fritid, ofte i forbindelse med spiludvikling på platforme som Roblox, Minecraft og Steam."
+			}
+		}
+	]
+}

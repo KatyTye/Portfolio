@@ -30,7 +30,7 @@ export default function Footer() {
 				<LinkedinIcon />
 			</a>
 
-			<a href="https://discord.gg/MhtgFEYeMA"
+			<a href="https://discord.gg/uJ7nCM4QDy"
 				target="_blank"
 				rel="noopener noreferrer"
 				className="bottom-content__button bottom-content__discord"
