@@ -49,7 +49,7 @@
 					"image": "./newsify.svg",
 					"hover": "Click to visit",
 					"version": "1st Build",
-					"created": "Monday, 20 Octoper 2025",
+					"created": "Monday, 20 October 2025",
 					"href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
 					"tags": [
 						"JAVASCRIPT",
@@ -65,7 +65,7 @@
 					"hover": "Click to visit",
 					"version": "3rd Build",
 					"href": "https://rts-cmk.github.io/food-app-KatyTye/",
-					"created": "Monday, 6 Octoper 2025",
+					"created": "Monday, 6 October 2025",
 					"tags": [
 						"JAVASCRIPT",
 						"REACT",
@@ -95,7 +95,8 @@
 	"danish": [
 		{
 			"textID": 1,
-			"article": "me",
+			"type": "article",
+			"article": "intro",
 			"title": "David Kirk Bilsted Majholt",
 			"subtitle": {
 				"colored": true,
@@ -107,6 +108,81 @@
 				"section 1": "Jeg er en person med mange færdigheder, især inden for webudvikling, som jeg også er under uddannelse i. Jeg arbejder ofte selvstændigt og kan løse de fleste opgaver alene, men jeg trives også i gruppearbejde, når det er nødvendigt. Mine sociale evner gør, at jeg nemt kan tale med folk uden problemer - dog er jeg ikke altid den bedste til at huske navne før efter et par måneder.",
 				"section 2": "Mine personlige hobbyer hænger tæt sammen med min uddannelse; jeg programmerer i min fritid, ofte i forbindelse med spiludvikling på platforme som Roblox, Minecraft og Steam."
 			}
+		},
+		{
+			"textID": 2,
+			"type": "section",
+			"title": "Seneste projekter",
+			"subtitle": "En liste over mine seneste projekter.",
+			"target": "projects",
+			"button": {
+				"showing": true,
+				"title": "Klik her for at se alle mine projekter",
+				"text": "Se alle projector"
+			},
+			"projects": [
+				{
+					"icon": true,
+					"title": "Kryds og Bolle",
+					"image": "./tic-tac-toe.svg",
+					"hover": "Klik for at besøge",
+					"version": "1st Build",
+					"created": "Tirsdag, 4 November 2025",
+					"href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "Et minispil på en hjemmeside. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				},
+				{
+					"icon": false,
+					"title": "Newsify",
+					"image": "./newsify.svg",
+					"hover": "Klik for at besøge",
+					"version": "1st Build",
+					"created": "Mandag, 20 Oktober 2025",
+					"href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "En avishjemmeside lavet med en API. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				},
+				{
+					"icon": true,
+					"title": "FoodGo",
+					"image": "./foodgo.svg",
+					"hover": "Klik for at besøge",
+					"version": "3rd Build",
+					"href": "https://rts-cmk.github.io/food-app-KatyTye/",
+					"created": "Mandag, 6 Oktober 2025",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"CSS"
+					],
+					"description": "En flot mobilapp til mad. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				},
+				{
+					"icon": false,
+					"title": "Squirrel API",
+					"image": "./squirrel.svg",
+					"hover": "Klik for at besøge",
+					"version": "2.2.2",
+					"created": "Onsdag, 20 august 2025",
+					"href": "https://squirrel-api.onrender.com/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"AXIOS",
+						"CSS"
+					],
+					"description": "En simpel API til at hente tilfældige egernfakta. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				}
+			]
 		}
 	]
 }

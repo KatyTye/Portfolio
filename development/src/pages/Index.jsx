@@ -1,9 +1,8 @@
-import { useState } from "react"
+import { Link, useOutletContext } from "react-router"
 import IndexJSON from "../data/index.json"
-import { Link } from "react-router"
 
 export default function Index() {
-	const [language, setLanguage] = useState("english")
+	const { language } = useOutletContext()
 
 	function ReturnTags(project) {
 		return project.tags.map((tagName) => {
