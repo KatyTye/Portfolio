@@ -2,18 +2,94 @@
 	"english": [
 		{
 			"textID": 1,
+			"type": "article",
 			"article": "intro",
 			"title": "David Kirk Bilsted Majholt",
 			"subtitle": {
 				"colored": true,
 				"color": "yellow",
 				"hover": "Please expect a delayed response.",
-				"text": "Currently studying at Roskilde Technical School."
+				"text": "Currently studying at Roskilde Tekniske Skole. (Technical School)"
 			},
 			"content": {
 				"section 1": "I'm a person with many skills, especially in web development, which I'm currently studying. I often work independently and can handle most tasks on my own, but I also enjoy working in groups when needed. My social skills allow me to communicate easily with others, though I sometimes take a couple of months to remember people's names.",
 				"section 2": "My personal hobbies are closely related to my education - I spend much of my free time programming, mainly developing games on platforms like Roblox, Minecraft, and Steam."
 			}
+		},
+		{
+			"textID": 2,
+			"type": "section",
+			"title": "Recent Projects",
+			"subtitle": "A list of my recent projects.",
+			"target": "projects",
+			"button": {
+				"showing": true,
+				"title": "Click here to see all my projects",
+				"text": "See all projects"
+			},
+			"projects": [
+				{
+					"icon": true,
+					"title": "Tic Tac Toe",
+					"image": "./tic-tac-toe.svg",
+					"hover": "Click to visit",
+					"version": "1st Build",
+					"created": "Tuesday, 4 November 2025",
+					"href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "A mini game on a website. Single person project. Build is completed and the updates will not continue."
+				},
+				{
+					"icon": false,
+					"title": "Newsify",
+					"image": "./newsify.svg",
+					"hover": "Click to visit",
+					"version": "1st Build",
+					"created": "Monday, 20 Octoper 2025",
+					"href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "A newspaper website made with an API. Single person project. Build is completed and the updates will not continue."
+				},
+				{
+					"icon": true,
+					"title": "FoodGo",
+					"image": "./foodgo.svg",
+					"hover": "Click to visit",
+					"version": "3rd Build",
+					"href": "https://rts-cmk.github.io/food-app-KatyTye/",
+					"created": "Monday, 6 Octoper 2025",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"CSS"
+					],
+					"description": "A pretty mobile app for food. Single person project. Build is completed and the updates will not continue."
+				},
+				{
+					"icon": false,
+					"title": "Squirrel API",
+					"image": "./squirrel.svg",
+					"hover": "Click to visit",
+					"version": "2.2.2",
+					"created": "Wednesday, 20 August 2025",
+					"href": "https://squirrel-api.onrender.com/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"AXIOS",
+						"CSS"
+					],
+					"description": "A simple API for getting random squirrel facts. Single person project. Major Version is completed but updates will continue."
+				}
+			]
 		}
 	],
 	"danish": [
