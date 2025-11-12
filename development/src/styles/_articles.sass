@@ -1,15 +1,23 @@
 @use "./_colors.sass" as var
 
-.intro-article
+.content-article
 	width: 95dvw
 	padding: 25px
+	margin: 30px auto
+	max-width: 1200px
+	transition: background 0.3s
 	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
 
 	&__content
 		margin-top: 25px
 
+	&__title
+		font-weight: normal
+
 	&__subtitle
 		font-size: 16px
+		font-style: italic
+		font-weight: normal
 
 		&-status
 			width: 18px

@@ -10,7 +10,16 @@ export default function Header() {
 	}, [])
 
 	function checkDarkMode() {
-		if (localStorage.getItem("darkMode") == "enabled") {
+		const darkmode = localStorage.getItem("darkMode");
+
+
+		(!darkmode && window.matchMedia("(prefers-color-scheme: dark)").matches)
+			? localStorage.setItem("darkMode", "enabled")
+			: localStorage.setItem("darkMode", "disabled")
+
+
+		if (darkmode === "enabled") {
+			localStorage.setItem("darkMode", "enabled")
 			document.querySelector("#root").classList.add("dark")
 		}
 	}

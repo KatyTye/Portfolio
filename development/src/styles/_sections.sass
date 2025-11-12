@@ -1,0 +1,117 @@
+@use "./_colors.sass" as var
+
+.content-section
+	display: flex
+	width: 100dvw
+	margin: 30px 0 0
+	padding: 30px 5dvw
+	transition: background 0.3s
+	justify-content: space-between
+	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
+
+	&__title
+		font-size: 35px
+		width: fit-content
+		font-weight: normal
+
+	&__subtitle
+		font-size: 16px
+		font-style: italic
+		width: fit-content
+		font-weight: normal
+
+	&__project
+		display: flex
+		padding: 25px
+		flex-wrap: wrap
+		min-height: 235px
+		justify-content: center
+		border: 1px solid var.$primary-link-color
+
+		&-tags
+			gap: 10px
+			display: flex
+			flex-wrap: wrap
+			margin-bottom: 15px
+
+		&-tag
+			padding: 5px
+			font-size: 10px
+			width: fit-content
+			border-radius: 100px
+			border: 1px solid var.$primary-link-color
+
+		&-title
+			width: 25dvw
+			font-size: 19px
+			min-width: 150px
+			margin-bottom: 10px
+
+			& a
+				color: inherit
+				text-decoration: none
+				transition: color 0.5s
+
+				&:hover
+					color: var.$primary-link-color
+
+		&-created, &-version
+			font-size: 14px
+
+			& span
+				font-weight: bold
+
+		&-description
+			width: 25dvw
+			min-width: 150px
+			margin-bottom: 25px
+
+		&-content
+			margin-left: 25px
+
+		img
+			width: 15dvw
+			min-width: 100px
+			max-width: 200px
+			max-height: 150px
+			color: light-dark(var.$primary-text-color, var.$secondary-text-color)
+
+			&.background
+				padding: 10px 5px 5px 5px
+				background: var.$primary-link-color
+
+		&:nth-of-type(n+2)
+			margin-top: 25px
+
+	&__button
+		width: 150px
+		display: block
+		cursor: pointer
+		text-align: center
+		margin-top: 25px
+		padding: 10px 5px
+		transition: background 0.3s
+		border: 1px solid var.$primary-link-color
+		color: light-dark(var.$primary-text-color, var.$secondary-text-color)
+
+		&:hover
+			text-decoration: none
+			background: var.$primary-link-color
+			color: light-dark(var.$primary-text-color, var.$secondary-text-color)
+
+	@media screen and (max-width: 775px)
+		&
+			gap: 50px
+			flex-direction: column
+
+		&__project
+			align-items: center
+			align-content: center
+			flex-direction: column
+
+			&-description
+				width: 250px
+
+			&-content
+				padding-left: 0px
+				padding-top: 10px
