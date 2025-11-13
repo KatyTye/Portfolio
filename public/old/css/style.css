@@ -224,6 +224,30 @@ body .top-button {
 	background-color: black;
 }
 
+.old-version-notice {
+	bottom: 10px;
+	opacity: 0.25;
+	z-index: 1000;
+	padding: 25px;
+	color: white;
+	position: fixed;
+	font-weight: bold;
+	text-align: center;
+	background: red;
+	border-radius: 10px;
+	transition: opacity 0.5s ease;
+}
+
+.old-version-notice a {
+	color: inherit;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.old-version-notice:hover {
+	opacity: 1;
+}
+
 /* -------------------------- PHONE EDITION */
 
 @media screen and (max-width: 800px) {

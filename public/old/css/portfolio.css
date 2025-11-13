@@ -87,7 +87,7 @@ article .download {
 	width: 2vh;
 	margin-left: auto;
 	margin-right: 25px;
-	background-image: url(/imgs/icons/download.svg);
+	background-image: url(/old/imgs/icons/download.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -122,7 +122,7 @@ article nav {
 }
 
 #main-content {
-	background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(/imgs/portfolio-background.jpg);
+	background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(/old/imgs/portfolio-background.jpg);
     background-repeat: no-repeat;
     background-size: 290vh;
     padding: 24vh 0;

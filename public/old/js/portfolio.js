@@ -42,5 +42,5 @@ function toggleMenu(input, cElm) {
 		cElm.querySelector(".checkout").innerHTML = "&#x22C0"
 	}
 
-	document.location.href = "/portfolio#top"
+	document.location.href = "/old/portfolio.html#top"
 }

@@ -11,14 +11,14 @@ function toggleBurger() {
 	burger.classList.toggle("burger-show")
 }
 
-fetch("/import/header.html")
-.then(res => res.text())
-.then(data => {
-	document.querySelector("#header").innerHTML = data;
-});
+fetch("/old/import/header.html")
+	.then(res => res.text())
+	.then(data => {
+		document.querySelector("#header").innerHTML = data;
+	});
 
-fetch("/import/footer.html")
-.then(res => res.text())
-.then(data => {
-	document.querySelector("#footer").innerHTML = data;
-});
+fetch("/old/import/footer.html")
+	.then(res => res.text())
+	.then(data => {
+		document.querySelector("#footer").innerHTML = data;
+	});
