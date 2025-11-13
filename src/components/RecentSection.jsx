@@ -1,8 +1,7 @@
-import { Link, useOutletContext } from "react-router"
 import IndexJSON from "../data/index.json"
+import { Link } from "react-router"
 
-export default function Index() {
-	const { language } = useOutletContext()
+export default function RecentSection({ language }) {
 
 	function ReturnTags(project) {
 		return project.tags.map((tagName) => {
@@ -40,28 +39,10 @@ export default function Index() {
 	}
 
 	return (
-		<main className="main-content index">
-			{IndexJSON[language].map((selected) => {
-				if (selected.type !== "article") return
-
-				return <article className={`content-article ${selected.article}-article`} key={`${selected.textID}-${selected.title}`}>
-					<h1 className="content-article__title">{selected.title}</h1>
-					<h2 className="content-article__subtitle">
-						<span title={selected.subtitle.hover}
-							className={`content-article__subtitle-status ${selected.subtitle.colored && selected.subtitle.color}`}></span>
-						{selected.subtitle.text}
-					</h2>
-					<p className="content-article__content">
-						{selected.content["section 1"]}
-						<span className="next">
-							{selected.content["section 2"]}
-						</span>
-					</p>
-				</article>
-			})}
-
+		<>
 			{IndexJSON[language].map((selected) => {
 				if (selected.type !== "section") return
+				if (selected.textID !== 2) return
 
 				return <section className="content-section latest-projects" key={`${selected.textID}-${selected.title}`}>
 					<div className="content-section__content">
@@ -78,6 +59,6 @@ export default function Index() {
 					</div>
 				</section>
 			})}
-		</main>
+		</>
 	)
 }

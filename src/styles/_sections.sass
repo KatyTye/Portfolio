@@ -26,7 +26,12 @@
 		flex-wrap: wrap
 		min-height: 235px
 		justify-content: center
+		transform: scale(100%)
+		transition: transform 0.5s
 		border: 1px solid var.$primary-link-color
+
+		&:hover
+			transform: scale(105%)
 
 		&-tags
 			gap: 10px
@@ -55,7 +60,7 @@
 				&:hover
 					color: var.$primary-link-color
 
-		&-created, &-version
+		&-created, &-version, &-type
 			font-size: 14px
 
 			& span

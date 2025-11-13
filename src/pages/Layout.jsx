@@ -9,6 +9,7 @@ export default function Layout() {
 
 	function toggleLanguage() {
 		setLanguage(language === "english" ? "danish" : "english")
+		localStorage.setItem("language", language === "english" ? "danish" : "english")
 	}
 
 	return (

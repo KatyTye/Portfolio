@@ -90,6 +90,27 @@
 					"description": "A simple API for getting random squirrel facts. Single person project. Major Version is completed but updates will continue."
 				}
 			]
+		},
+		{
+			"textID": 3,
+			"title": "My resumes",
+			"subtitle": "A list of my CVs through time.",
+			"list": [
+				{
+					"type": "latest",
+					"created": "Tuesday, 22 April 2025",
+					"title": "Roskilde Tekniske Skole. (Technical School)",
+					"href": "./documents/CV.pdf",
+					"image": "./pdf.svg"
+				},
+				{
+					"type": "older",
+					"created": "Tuesday, 22 April 2025",
+					"title": "FGU Nordvestsjælland",
+					"href": "./documents/fgu-CV.pdf",
+					"image": "./pdf.svg"
+				}
+			]
 		}
 	],
 	"danish": [
