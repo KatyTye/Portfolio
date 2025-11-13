@@ -15,6 +15,7 @@ def printscreen():
 	print("")
 	if admin == True:
 		print("------------ ADMIN ------------")
+		print("Selected:" + str(konto))
 		print("")
 		print("IDS: " + str(id))
 		print("Usernames: " + str(usernames))
@@ -171,6 +172,8 @@ while True:
 						break
 				id -= 1
 				get = str(konto + "-" + str(id2))
+				if usernames.count(get)==0:
+					get = str(konto + "-" + str(int(id2)+1))
 				usernames.remove(get)
 				get = str(entered + "-" + konto)
 				passwords.remove(get)

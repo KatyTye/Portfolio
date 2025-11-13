@@ -1,4 +1,4 @@
-import IndexJSON from "../data/index.json"
+import IndexJSON from "../data/language.json"
 import { Link } from "react-router"
 
 export default function RecentSection({ language }) {

@@ -105,11 +105,41 @@
 				},
 				{
 					"type": "older",
-					"created": "Tuesday, 22 April 2025",
+					"created": "2024",
 					"title": "FGU Nordvestsjælland",
 					"href": "./documents/fgu-CV.pdf",
 					"image": "./pdf.svg"
 				}
+			]
+		},
+		{
+			"textID": 4,
+			"title": "My portfolios",
+			"subtitle": "A list of my portfolios through time.",
+			"list": [
+				{
+					"type": "older",
+					"created": "2024",
+					"title": "FGU Nordvestsjælland",
+					"href": "./documents/fgu-port.pdf",
+					"image": "./pdf.svg"
+				}
+			]
+		},
+		{
+			"textID": 5,
+			"type": "article",
+			"article": "about",
+			"title": "My Information",
+			"places": [
+				"Date of Birth:",
+				"Address:",
+				"Email:"
+			],
+			"list": [
+				"12th of January, 2007",
+				"Østrup Skovvej 2, 4350 Ugerløse, Denmark",
+				"d.boy.dragoz@gmail.com"
 			]
 		}
 	],
@@ -203,6 +233,57 @@
 					],
 					"description": "En simpel API til at hente tilfældige egernfakta. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
 				}
+			]
+		},
+		{
+			"textID": 3,
+			"title": "Mine CV'er",
+			"subtitle": "En liste over mine CV'er gennem tiden.",
+			"list": [
+				{
+					"type": "seneste",
+					"created": "Tirsdag, 22 April 2025",
+					"title": "Roskilde Tekniske Skole.",
+					"href": "./documents/CV.pdf",
+					"image": "./pdf.svg"
+				},
+				{
+					"type": "ældre",
+					"created": "2024",
+					"title": "FGU Nordvestsjælland",
+					"href": "./documents/fgu-CV.pdf",
+					"image": "./pdf.svg"
+				}
+			]
+		},
+		{
+			"textID": 4,
+			"title": "Mine porteføljer",
+			"subtitle": "En liste over mine porteføljer gennem tiden.",
+			"list": [
+				{
+					"type": "ældre",
+					"created": "2024",
+					"title": "FGU Nordvestsjælland",
+					"href": "./documents/fgu-port.pdf",
+					"image": "./pdf.svg"
+				}
+			]
+		},
+		{
+			"textID": 5,
+			"type": "article",
+			"article": "about",
+			"title": "Mine oplysninger",
+			"places": [
+				"Fødselsdato:",
+				"Adresse:",
+				"E-mail:"
+			],
+			"list": [
+				"12. januar 2007",
+				"Østrup Skovvej 2, 4350 Ugerløse, Danmark",
+				"d.boy.dragoz@gmail.com"
 			]
 		}
 	]

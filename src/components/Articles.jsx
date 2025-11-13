@@ -1,4 +1,4 @@
-import IndexJSON from "../data/index.json"
+import IndexJSON from "../data/language.json"
 
 export default function Articles({ language }) {
 
