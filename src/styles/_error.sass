@@ -1,0 +1,32 @@
+@use "./_colors.sass" as var
+
+.main-content__old-portfolio
+	display: flex
+	width: 100dvw
+	padding: 25px
+	margin: 25px 0 0 0
+	justify-content: center
+	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
+
+	&-link
+		text-align: center
+		transition: color 0.5s
+		color: light-dark(var.$primary-text-color, var.$secondary-text-color)
+
+		&:hover
+			text-decoration: none
+
+.main-content.error
+	display: flex
+	padding: 50px
+	align-items: center
+	justify-content: center
+
+	& .error-message
+		font-weight: bold
+
+	& .error-image
+		min-width: 100px
+		max-width: 200px
+		margin-bottom: 20px
+		fill: light-dark(var.$secondary-background-color, var.$primary-background-color)

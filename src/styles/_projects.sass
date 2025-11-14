@@ -1,0 +1,33 @@
+@use "./_colors.sass" as var
+
+.react-projects, .api-projects
+	display: block
+
+	&:nth-of-type(1)
+		margin-top: 0
+
+	&>div
+		gap: 25px
+		display: flex
+		margin-top: 25px
+		align-items: center
+		overflow: scroll hidden
+		padding: 15px 15px 25px 15px
+
+	.content-section__project-content
+		margin-left: 0
+
+	.content-section__project, & figure
+		margin-top: 0
+		height: 300.5px
+		display: inherit
+		text-align: center
+		align-items: center
+		justify-content: center
+		flex-direction: column
+
+		& .tags_list
+			gap: 10px
+			display: flex
+			margin-bottom: 10px
+			justify-content: center

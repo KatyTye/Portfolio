@@ -1,0 +1,66 @@
+@use "./_colors.sass" as var
+
+.top-content
+	gap: 25px
+	height: 60px
+	display: flex
+	align-items: center
+	padding: 5px 25px
+	justify-content: inherit
+	transition: background 0.3s
+	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
+
+	&__logo
+		gap: 10px
+		display: inherit
+		align-items: center
+		color: light-dark(var.$primary-text-color, var.$secondary-text-color)
+
+		&:hover
+			text-decoration: none
+			color: var.$secondary-link-color
+
+		&-title
+			color: inherit
+			font-size: 16px
+			transition: color 0.5s
+
+		&-icon
+			width: 25px
+			height: 25px
+			color: inherit
+			transition: color 0.5s
+
+	&__navigation
+		gap: 20px
+		display: inherit
+		align-items: center
+		justify-content: space-between
+
+		&-link
+			text-align: center
+			width: fit-content
+			padding-bottom: 2px
+			text-decoration: none
+			display: inline-block
+			transition: border 0.5s, color 0.5s
+			border-bottom: 2px solid transparent
+			color: light-dark(var.$primary-text-color,var.$secondary-text-color)
+
+			&.active, &:hover
+				text-decoration: none
+				border-bottom: 2px solid var.$secondary-link-color
+
+		&-mode
+			height: 25px
+			width: 25px
+			cursor: pointer
+			transition: color 0.5s
+			transform: translateY(-2.5px)
+			color: light-dark(var.$secondary-background-color, var.$primary-background-color)
+
+			&:hover
+				color: var.$secondary-link-color
+
+			&-icon
+				width: fit-content

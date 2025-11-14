@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap"
+		rel="stylesheet">
+	<title>Kontakt | Davids Portfolie</title>
+	<link rel="icon" href="./imgs/logo.png">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/kontakt.css">
+	<script src="./js/main.js" defer></script>
+	<script src="./js/kontakt.js" defer></script>
+</head>
+
+<body>
+	<div class="old-version-notice">
+		<p>You are on the old version</p>
+		<a href="/">Click here to go home</a>
+	</div>
+
+	<header class="header" id="header"></header>
+
+	<main class="main-content">
+		<section class="kontakt-info" id="kontakt-info">
+			<div class="oh">
+				<h3>OPLYSNINGS HÅNDTERING</h3>
+				<p>
+					<span>Ved at sende via kontaktformularen, sender</span>
+					<span>du kun dit fornavn samt efternavn og email.</span>
+					<span>Disse oplysninger bilver KUN brugt til private</span>
+					<span>samtaler i fremtiden når vi skaber kontakt.</span>
+				</p>
+			</div>
+
+			<div class="respons">
+				<h3>MIN RESPONSTID</h3>
+				<p>
+					<span>Når du sender via kontaktformularen, ville</span>
+					<span>jeg nemmer kunde find dig iblandt alle andre mails.</span>
+					<span>Dette ville gøre så du kan får kontakt med mig,</span>
+					<span>indefor de næste 24 timer fra din sendelse.</span>
+				</p>
+			</div>
+
+		</section>
+
+		<section id="form-section" class="kontakt-form">
+			<form id="kontakt-form" target="_blank" action="https://formsubmit.co/d.boy.dragoz@gmail.com" method="POST">
+				<h2>KONTAKTFORMULAR</h2>
+				<input type="hidden" name="_next"
+					value="https://david-majholt-portfolie.netlify.app/kontakt.html?submitted=tak">
+				<input type="text" name="first name" class="InputBox" placeholder="Skriv dit fornavn." maxlength="60"
+					required>
+				<input type="email" name="email" class="InputBox" placeholder="Skriv din e-mail." maxlength="60"
+					required>
+				<input type="text" name="topic" class="InputBox" placeholder="Skriv navnet på emned." maxlength="60"
+					required>
+				<textarea placeholder="Hvad ville du skrive om?" class="InputBox" name="besked" maxlength="500"
+					required></textarea>
+				<button type="submit">SEND</button>
+			</form>
+		</section>
+		<div id="form-output">
+			<h1>Tak fordi du kontakter mig via kontaktformularen.</h1>
+			<p>
+				<span>Du ville blive kontakted indenfor 24 timer,</span>
+				<span>fra min email. Hvis du ikke får kontakt</span>
+				<span>kan du ringe til mig.</span>
+			</p>
+			<button class="white-button" onclick="changePage('index')">FORSIDE</button>
+		</div>
+	</main>
+
+	<footer class="footer" id="footer"></footer>
+</body>
+
+</html>

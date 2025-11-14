@@ -1,0 +1,42 @@
+@use "./_colors.sass" as var
+
+.content-article
+	width: 95dvw
+	padding: 25px
+	margin: 30px auto
+	max-width: 1200px
+	transition: background 0.3s
+	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
+
+	&__content
+		margin-top: 25px
+
+		&.special-content
+			width: fit-content
+			display: inline-block
+
+			& span span
+				font-weight: bold
+
+	&__title
+		font-weight: normal
+
+	&__subtitle
+		font-size: 16px
+		font-style: italic
+		font-weight: normal
+
+		&-status
+			width: 18px
+			height: 18px
+			margin-right: 10px
+			border-radius: 100px
+			display: inline-block
+			transform: translateY(3px)
+			border: 2px solid var.$primary-status-color
+
+			&.yellow
+				border: 2px solid var.$secondary-status-color
+
+			&.red
+				border: 2px solid var.$third-status-color

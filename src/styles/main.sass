@@ -1,0 +1,53 @@
+@use "./_colors.sass" as var
+
+// BROWSER RESETS
+@use "./_resets.sass"
+
+// HEADER
+@use "./_header.sass"
+
+// FOOTER
+@use "./_footer.sass"
+
+// TAGS
+@use "./_tags.sass"
+
+// ARTICLES
+@use "./_articles.sass"
+
+// SECTIONS
+@use "./_sections.sass"
+
+// PROJECTS
+@use "./_projects.sass"
+
+// ERROR
+@use "./_error.sass"
+
+//
+// DEFAULT MAIN STYLING
+//
+
+.overlay-content
+	bottom: 0
+	display: flex
+	position: fixed
+	padding: 22px
+	justify-content: space-between
+
+	&__button
+		border: none
+		cursor: pointer
+		background: transparent
+
+.main-content
+	display: inherit
+	align-items: center
+	flex-direction: inherit
+
+	& .next
+		display: block
+		padding-top: 20px
+
+	& .underline
+		text-decoration: underline
