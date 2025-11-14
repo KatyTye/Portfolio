@@ -137,9 +137,88 @@
 				"Email:"
 			],
 			"list": [
-				"12th of January, 2007",
+				"4th of September, 2007",
 				"Østrup Skovvej 2, 4350 Ugerløse, Denmark",
 				"d.boy.dragoz@gmail.com"
+			]
+		},
+		{
+			"textID": 6,
+			"type": "section",
+			"title": "React Projects",
+			"subtitle": "A list of my react projects.",
+			"target": "projects",
+			"projects": [
+				{
+					"icon": true,
+					"title": "Tic Tac Toe",
+					"image": "./tic-tac-toe.svg",
+					"hover": "Click to visit",
+					"version": "1st Build",
+					"created": "Tuesday, 4 November 2025",
+					"href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "A mini game on a website. Single person project. Build is completed and the updates will not continue."
+				},
+				{
+					"icon": false,
+					"title": "Newsify",
+					"image": "./newsify.svg",
+					"hover": "Click to visit",
+					"version": "1st Build",
+					"created": "Monday, 20 October 2025",
+					"href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "A newspaper website made with an API. Single person project. Build is completed and the updates will not continue."
+				},
+				{
+					"icon": true,
+					"title": "FoodGo",
+					"image": "./foodgo.svg",
+					"hover": "Click to visit",
+					"version": "3rd Build",
+					"href": "https://rts-cmk.github.io/food-app-KatyTye/",
+					"created": "Monday, 6 October 2025",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"CSS"
+					],
+					"description": "A pretty mobile app for food. Single person project. Build is completed and the updates will not continue."
+				}
+			]
+		},
+		{
+			"textID": 7,
+			"type": "section",
+			"title": "API Projects",
+			"subtitle": "A list of my api projects.",
+			"target": "projects",
+			"projects": [
+				{
+					"icon": false,
+					"title": "Squirrel API",
+					"image": "./squirrel.svg",
+					"hover": "Click to visit",
+					"version": "2.2.2",
+					"created": "Wednesday, 20 August 2025",
+					"href": "https://squirrel-api.onrender.com/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"AXIOS",
+						"CSS"
+					],
+					"description": "A simple API for getting random squirrel facts. Single person project. Major Version is completed but updates will continue."
+				}
 			]
 		}
 	],
@@ -281,9 +360,88 @@
 				"E-mail:"
 			],
 			"list": [
-				"12. januar 2007",
+				"4. September 2007",
 				"Østrup Skovvej 2, 4350 Ugerløse, Danmark",
 				"d.boy.dragoz@gmail.com"
+			]
+		},
+		{
+			"textID": 6,
+			"type": "section",
+			"title": "React Projekter",
+			"subtitle": "En liste over mine react projekter.",
+			"target": "projects",
+			"projects": [
+				{
+					"icon": true,
+					"title": "Kryds og Bolle",
+					"image": "./tic-tac-toe.svg",
+					"hover": "Klik for at besøge",
+					"version": "1st Build",
+					"created": "Tirsdag, 4 November 2025",
+					"href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "Et minispil på en hjemmeside. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				},
+				{
+					"icon": false,
+					"title": "Newsify",
+					"image": "./newsify.svg",
+					"hover": "Klik for at besøge",
+					"version": "1st Build",
+					"created": "Mandag, 20 Oktober 2025",
+					"href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "En avishjemmeside lavet med en API. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				},
+				{
+					"icon": true,
+					"title": "FoodGo",
+					"image": "./foodgo.svg",
+					"hover": "Klik for at besøge",
+					"version": "3rd Build",
+					"href": "https://rts-cmk.github.io/food-app-KatyTye/",
+					"created": "Mandag, 6 Oktober 2025",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"CSS"
+					],
+					"description": "En flot mobilapp til mad. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				}
+			]
+		},
+		{
+			"textID": 7,
+			"type": "section",
+			"title": "API Projekter",
+			"subtitle": "En liste over mine api projekter.",
+			"target": "projects",
+			"projects": [
+				{
+					"icon": false,
+					"title": "Squirrel API",
+					"image": "./squirrel.svg",
+					"hover": "Klik for at besøge",
+					"version": "2.2.2",
+					"created": "Onsdag, 20 august 2025",
+					"href": "https://squirrel-api.onrender.com/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"AXIOS",
+						"CSS"
+					],
+					"description": "En simpel API til at hente tilfældige egernfakta. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				}
 			]
 		}
 	]
