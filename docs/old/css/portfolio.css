@@ -1,0 +1,156 @@
+/* 
+	PORTFOLIO MAIN CSS
+*/
+
+.list {
+	list-style-type: disc;
+}
+
+.closed-section {
+	display: none !important;
+}
+
+.hidden-article {
+	display: none !important;
+}
+
+.download {
+	cursor: pointer;
+}
+
+.cv-section, .port-section {
+	gap: 2vh;
+}
+
+.main-article .list .changeSpan span {
+	display: flex;
+	flex-direction: column;
+	font-weight: normal;
+}
+
+.article-img {
+	width: 20vh;
+}
+
+.article-section ul li {
+	font-family: "M PLUS Rounded 1c", static;
+}
+
+.article-section ul li span {
+	font-weight: bold;
+}
+
+.article-section .main-article p {
+	display: flex;
+	flex-direction: column;
+	font-family: "M PLUS Rounded 1c", static;
+}
+
+.main-article > h1 {
+	font-size: 1.5rem;
+}
+
+.hidden-article {
+	display: none;
+}
+
+.port-section .main-port .main-article ul li a {
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.cv-section, .port-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.cv-section article .main-article, .port-section article .main-article {
+	padding: 5vh;
+}
+
+.cv-section article, .port-section article {
+	width: 75%;
+	text-align: left;
+}
+
+.release-time {
+	font-family: "M PLUS Rounded 1c", static;
+	font-size: 1rem;
+	margin-left: 10px;
+}
+
+article .download {
+	height: 2vh;
+	width: 2vh;
+	margin-left: auto;
+	margin-right: 25px;
+	background-image: url(/old/imgs/icons/download.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+article .checkout {
+	margin: 0;
+	font-size: 2vh;
+}
+
+article nav {
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 2vh;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 6vh;
+	text-shadow: none;
+}
+
+#port-section .main-port .main-article h3 {
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+#cv-section .main-article .boldSpan {
+	display: block;
+}
+
+#cv-section .main-article .boldSpan span {
+	font-weight: bold;
+}
+
+#main-content {
+	background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url(/old/imgs/portfolio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 290vh;
+    padding: 24vh 0;
+    justify-content: center;
+	color: white;
+}
+
+@media screen and (max-width: 800px) {
+	#cv-section .article-section, #port-section .article-section {
+		width: 90%;
+	}
+
+	.article-section nav h3 {
+		font-size: 0.75rem;
+	}
+
+	#cv-section .article-section .main-article, #port-section .article-section .main-article {
+		padding: 2vh;
+	}
+
+	.article-section nav p {
+		font-weight: bold;
+		font-size: 0.7rem;
+		max-width: 71px;
+	}
+
+	.article-section nav a {
+		margin-left: auto;
+		margin-right: 5px;
+	}
+}
