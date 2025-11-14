@@ -25,9 +25,9 @@
 		padding: 25px
 		flex-wrap: wrap
 		min-height: 235px
-		justify-content: center
 		transform: scale(100%)
 		transition: transform 0.5s
+		justify-content: space-between
 		border: 1px solid var.$primary-link-color
 
 		&:hover
@@ -47,10 +47,10 @@
 			border: 1px solid var.$primary-link-color
 
 		&-title
-			width: 25dvw
+			width: 100%
 			font-size: 19px
+			margin: 10px 0
 			min-width: 150px
-			margin-bottom: 10px
 
 			& a
 				color: inherit
@@ -61,6 +61,7 @@
 					color: var.$primary-link-color
 
 		&-created, &-version, &-type
+			width: 100%
 			font-size: 14px
 
 			& span
@@ -78,7 +79,7 @@
 			width: 15dvw
 			min-width: 100px
 			max-width: 200px
-			max-height: 150px
+			max-height: 125px
 			color: light-dark(var.$primary-text-color, var.$secondary-text-color)
 
 			&.background
