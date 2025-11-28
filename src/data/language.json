@@ -150,6 +150,21 @@
 			"target": "projects",
 			"projects": [
 				{
+					"icon": false,
+					"title": "Pet Finder",
+					"image": "./pet.svg",
+					"hover": "Click to visit",
+					"version": "4th Build",
+					"created": "Monday, 17 November 2025",
+					"href": "https://rts-cmk.github.io/pet-finder-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "A pet website made with my API. One person project. It's finished and the updates are not continuing."
+				},
+				{
 					"icon": true,
 					"title": "Tic Tac Toe",
 					"image": "./tic-tac-toe.svg",
@@ -372,6 +387,21 @@
 			"subtitle": "En liste over mine react projekter.",
 			"target": "projects",
 			"projects": [
+				{
+					"icon": false,
+					"title": "Pet Finder",
+					"image": "./pet.svg",
+					"hover": "Klik for at besøge",
+					"version": "1st Build",
+					"created": "Mandag, 17 November 2025",
+					"href": "https://rts-cmk.github.io/pet-finder-KatyTye/",
+					"tags": [
+						"JAVASCRIPT",
+						"REACT",
+						"SASS"
+					],
+					"description": "En kæledyr hjemmeside lavet med min API. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
+				},
 				{
 					"icon": true,
 					"title": "Kryds og Bolle",
