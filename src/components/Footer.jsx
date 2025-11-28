@@ -22,7 +22,7 @@ export default function Footer() {
 				<GithubIcon />
 			</a>
 
-			<a href="https://www.linkedin.com"
+			<a href="https://www.linkedin.com/in/david-kirk-bilsted-majholt"
 				target="_blank"
 				rel="noopener noreferrer"
 				className="bottom-content__button bottom-content__linkedin"
