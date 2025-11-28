@@ -11,7 +11,6 @@ export default function Header() {
 
 	function checkDarkMode() {
 		var darkmode = localStorage.getItem("darkMode");
-		console.log(!darkmode)
 
 		if (!darkmode || window.matchMedia("(prefers-color-scheme: dark)").matches) { localStorage.setItem("darkMode", "enabled") }
 		else { localStorage.setItem("darkMode", "disabled") }
@@ -20,7 +19,6 @@ export default function Header() {
 		darkmode = localStorage.getItem("darkMode");
 
 		if (darkmode === "enabled") {
-			console.log("Dark mode is enabled")
 			localStorage.setItem("darkMode", "enabled")
 			document.querySelector("#root").classList.add("dark")
 		}
