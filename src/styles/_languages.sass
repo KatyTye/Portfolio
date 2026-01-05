@@ -1,0 +1,40 @@
+@use "./_colors.sass" as var
+
+.main-content__skills
+	width: 100dvw
+	padding: 25px 25px
+	margin: 25px 0 0 0
+	transition: background 0.3s
+	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
+
+	&-wrapper
+		gap: 25px
+		display: grid
+		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr))
+
+	&-title
+		font-size: 35px
+		font-weight: normal
+		margin-bottom: 15px
+
+	&-holder
+		gap: 10px
+		height: 50px
+		display: flex
+		align-items: center
+
+	&-icon
+		width: 50px
+		min-width: 50px
+
+	&-text
+		color: inherit
+		text-wrap: nowrap
+		font-weight: bold
+
+	@media screen and (max-width: 775px)
+		&-title
+			text-align: center
+
+		&-wrapper
+			justify-items: center
