@@ -34,7 +34,7 @@ export default function Languages() {
 		</div>
 		<div className="main-content__langs-holder colored-tag SKRIPT">
 			<img className="main-content__langs-icon" src="./mcskript.png" alt="minecraft skripting"></img>
-			<p className="main-content__langs-text">Minecraft Skript Plugin</p>
+			<p className="main-content__langs-text">Skript Plugin</p>
 		</div>
 
 		<div className="main-content__langs-holder colored-tag LUA">
