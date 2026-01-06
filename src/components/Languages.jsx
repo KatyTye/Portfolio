@@ -1,5 +1,6 @@
 import { FaSass, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt } from "react-icons/fa6";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
+import ViteSVG from "../assets/icons/vite.svg?react"
 import { useOutletContext } from "react-router";
 
 export default function Languages() {
@@ -36,6 +37,10 @@ export default function Languages() {
 				<IoLogoReact className="main-content__skills-icon" />
 				<p className="main-content__skills-text">React</p>
 			</li>
+			<li className="main-content__skills-holder colored-tag VITE">
+				<ViteSVG className="main-content__skills-icon" />
+				<p className="main-content__skills-text">Vite</p>
+			</li>
 			<li className="main-content__skills-holder colored-tag JAVASCRIPT">
 				<IoLogoJavascript className="main-content__skills-icon" />
 				<p className="main-content__skills-text">JavaScript</p>
@@ -44,7 +49,6 @@ export default function Languages() {
 				<img className="main-content__skills-icon" src="./mcskript.png" alt="minecraft skripting"></img>
 				<p className="main-content__skills-text">Skript Plugin</p>
 			</li>
-
 			<li className="main-content__skills-holder colored-tag LUA">
 				<img className="main-content__skills-icon" src="./Lua_logo.png" alt="lua skripting"></img>
 				<p className="main-content__skills-text">Roblox Lua</p>
