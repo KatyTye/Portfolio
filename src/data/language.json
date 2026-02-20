@@ -114,9 +114,16 @@
 			"list": [
 				{
 					"type": "latest",
+					"created": "Friday, 20 February 2026",
+					"title": "Current resume",
+					"href": "./documents/CV.pdf",
+					"image": "./pdf.svg"
+				},
+				{
+					"type": "older",
 					"created": "Tuesday, 22 April 2025",
 					"title": "Roskilde Tekniske Skole. (Technical School)",
-					"href": "./documents/CV.pdf",
+					"href": "./documents/old-CV.pdf",
 					"image": "./pdf.svg"
 				},
 				{
@@ -390,9 +397,16 @@
 			"list": [
 				{
 					"type": "seneste",
+					"created": "Fredag, 20 Februar 2026",
+					"title": "Nuværende CV",
+					"href": "./documents/CV.pdf",
+					"image": "./pdf.svg"
+				},
+				{
+					"type": "ældre",
 					"created": "Tirsdag, 22 April 2025",
 					"title": "Roskilde Tekniske Skole.",
-					"href": "./documents/CV.pdf",
+					"href": "./documents/old-CV.pdf",
 					"image": "./pdf.svg"
 				},
 				{
