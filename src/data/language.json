@@ -267,6 +267,12 @@
 					"description": "A simple API for getting random squirrel facts. Single person project. Major Version is completed but updates will continue."
 				}
 			]
+		},
+		{
+			"textID": 8,
+			"title": "Recent games created",
+			"subtitle": "A list of my games that I have made.",
+			"list": []
 		}
 	],
 	"danish": [
@@ -537,6 +543,12 @@
 					"description": "En simpel API til at hente tilfældige egernfakta. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
 				}
 			]
+		},
+		{
+			"textID": 8,
+			"title": "Seneste lavet spil",
+			"subtitle": "En liste over mine spil som jeg har lavet.",
+			"list": []
 		}
 	]
 }
