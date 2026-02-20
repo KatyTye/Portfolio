@@ -59,9 +59,10 @@ export default function Header() {
 
 			<nav className="top-content__navigation">
 				<NavLink className="top-content__navigation-link" tabIndex={2} to={"/"} rel="alternate">Home</NavLink>
-				<NavLink className="top-content__navigation-link" tabIndex={3} to={"/projects"} rel="alternate">Projects</NavLink>
-				<NavLink className="top-content__navigation-link" tabIndex={4} to={"/about"} rel="alternate">About Me</NavLink>
-				<figure className="top-content__navigation-mode" tabIndex={5} title="Toggle dark mode" onClick={event => toggleDarkMode(event.target)}>
+				<NavLink className="top-content__navigation-link" tabIndex={3} to={"/games"} rel="alternate">Games</NavLink>
+				<NavLink className="top-content__navigation-link" tabIndex={4} to={"/projects"} rel="alternate">Projects</NavLink>
+				<NavLink className="top-content__navigation-link" tabIndex={5} to={"/about"} rel="alternate">About Me</NavLink>
+				<figure className="top-content__navigation-mode" tabIndex={6} title="Toggle dark mode" onClick={event => toggleDarkMode(event.target)}>
 					<Sun className="top-content__mode-icon" />
 				</figure>
 			</nav>

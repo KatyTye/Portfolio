@@ -1,7 +1,16 @@
-import { FaSass, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt } from "react-icons/fa6";
-import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
-import ViteSVG from "../assets/icons/vite.svg?react"
 import { useOutletContext } from "react-router";
+
+import GitSVG from "../assets/icons/git.svg?react";
+import PhpSVG from "../assets/icons/php.svg?react";
+import SassSVG from "../assets/icons/sass.svg?react";
+import CssSVG from "../assets/icons/css.svg?react";
+import HtmlSVG from "../assets/icons/html.svg?react";
+import NodeJsSVG from "../assets/icons/nodejs.svg?react";
+import ReactSVG from "../assets/icons/react.svg?react";
+import ViteSVG from "../assets/icons/vite.svg?react";
+import JavaScriptSVG from "../assets/icons/javascript.svg?react";
+import MySqlSVG from "../assets/icons/mysql.svg?react";
+import RobloxLuaSVG from "../assets/icons/lua.svg?react";
 
 export default function Languages() {
 	const { language } = useOutletContext()
@@ -14,27 +23,31 @@ export default function Languages() {
 
 		<ul className="main-content__skills-wrapper">
 			<li className="main-content__skills-holder colored-tag GIT">
-				<FaGitAlt className="main-content__skills-icon" />
+				<GitSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">Git</p>
 			</li>
+			<li className="main-content__skills-holder colored-tag PHP">
+				<PhpSVG className="main-content__skills-icon" />
+				<p className="main-content__skills-text">PHP</p>
+			</li>
 			<li className="main-content__skills-holder colored-tag SASS">
-				<FaSass className="main-content__skills-icon" />
+				<SassSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">SASS</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag CSS">
-				<FaCss3Alt className="main-content__skills-icon" />
+				<CssSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">CSS</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag HTML">
-				<FaHtml5 className="main-content__skills-icon" />
+				<HtmlSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">HTML</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag NODEJS">
-				<FaNodeJs className="main-content__skills-icon" />
+				<NodeJsSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">Node.JS</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag REACT">
-				<IoLogoReact className="main-content__skills-icon" />
+				<ReactSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">React</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag VITE">
@@ -42,15 +55,19 @@ export default function Languages() {
 				<p className="main-content__skills-text">Vite</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag JAVASCRIPT">
-				<IoLogoJavascript className="main-content__skills-icon" />
+				<JavaScriptSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">JavaScript</p>
+			</li>
+			<li className="main-content__skills-holder colored-tag MYSQL">
+				<MySqlSVG className="main-content__skills-icon" />
+				<p className="main-content__skills-text">MySQL</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag SKRIPT">
 				<img className="main-content__skills-icon" src="./mcskript.png" alt="minecraft skripting"></img>
 				<p className="main-content__skills-text">Skript Plugin</p>
 			</li>
 			<li className="main-content__skills-holder colored-tag LUA">
-				<img className="main-content__skills-icon" src="./Lua_logo.png" alt="lua skripting"></img>
+				<RobloxLuaSVG className="main-content__skills-icon" />
 				<p className="main-content__skills-text">Roblox Lua</p>
 			</li>
 		</ul>
