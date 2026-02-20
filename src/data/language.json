@@ -29,6 +29,22 @@
 			},
 			"projects": [
 				{
+					"icon": false,
+					"title": "HiFi Web Store",
+					"image": "./hifi.svg",
+					"hover": "Click to visit",
+					"version": "5th Build",
+					"created": "Tuesday, 9 December 2025",
+					"href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"REACT",
+						"SASS"
+					],
+					"description": "A online web store. 2 people project. Build is completed and the updates will not continue."
+				},
+				{
 					"icon": true,
 					"title": "Tic Tac Toe",
 					"image": "./tic-tac-toe.svg",
@@ -80,7 +96,7 @@
 					"hover": "Click to visit",
 					"version": "2.2.6",
 					"created": "Wednesday, 20 August 2025",
-					"href": "https://squirrel-api.netlify.app/api/squirrel",
+					"href": "https://squirrel.daivdmajholt.me/api/squirrel",
 					"tags": [
 						"JAVASCRIPT",
 						"EXPRESS",
@@ -149,6 +165,22 @@
 			"subtitle": "A list of my react projects.",
 			"target": "projects",
 			"projects": [
+				{
+					"icon": false,
+					"title": "HiFi Web Store",
+					"image": "./hifi.svg",
+					"hover": "Click to visit",
+					"version": "5th Build",
+					"created": "Tuesday, 9 December 2025",
+					"href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"REACT",
+						"SASS"
+					],
+					"description": "A online web store. 2 people project. Build is completed and the updates will not continue."
+				},
 				{
 					"icon": false,
 					"title": "Pet Finder",
@@ -225,7 +257,7 @@
 					"hover": "Click to visit",
 					"version": "2.2.6",
 					"created": "Wednesday, 20 August 2025",
-					"href": "https://squirrel-api.netlify.app/api/squirrel",
+					"href": "https://squirrel.daivdmajholt.me/api/squirrel",
 					"tags": [
 						"JAVASCRIPT",
 						"EXPRESS",
@@ -266,6 +298,22 @@
 				"text": "Se alle projector"
 			},
 			"projects": [
+				{
+					"icon": false,
+					"title": "HiFi Webshop",
+					"image": "./hifi.svg",
+					"hover": "Klik for at besøge",
+					"version": "5th Build",
+					"created": "Tirsdag, 9 December 2025",
+					"href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"REACT",
+						"SASS"
+					],
+					"description": "En online webshop. Projekt udført af 2 personer. Byggeriet er færdigt, og opdateringerne fortsætter ikke."
+				},
 				{
 					"icon": true,
 					"title": "Kryds og Bolle",
@@ -318,7 +366,7 @@
 					"hover": "Klik for at besøge",
 					"version": "2.2.6",
 					"created": "Onsdag, 20 august 2025",
-					"href": "https://squirrel-api.netlify.app/api/squirrel",
+					"href": "https://squirrel.daivdmajholt.me/api/squirrel",
 					"tags": [
 						"JAVASCRIPT",
 						"EXPRESS",
@@ -387,6 +435,22 @@
 			"subtitle": "En liste over mine react projekter.",
 			"target": "projects",
 			"projects": [
+				{
+					"icon": false,
+					"title": "HiFi Webshop",
+					"image": "./hifi.svg",
+					"hover": "Klik for at besøge",
+					"version": "5th Build",
+					"created": "Tirsdag, 9 December 2025",
+					"href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
+					"tags": [
+						"JAVASCRIPT",
+						"EXPRESS",
+						"REACT",
+						"SASS"
+					],
+					"description": "En online webshop. Projekt udført af 2 personer. Byggeriet er færdigt, og opdateringerne fortsætter ikke."
+				},
 				{
 					"icon": false,
 					"title": "Pet Finder",
@@ -463,7 +527,7 @@
 					"hover": "Klik for at besøge",
 					"version": "2.2.6",
 					"created": "Onsdag, 20 august 2025",
-					"href": "https://squirrel-api.netlify.app/api/squirrel",
+					"href": "https://squirrel.daivdmajholt.me/api/squirrel",
 					"tags": [
 						"JAVASCRIPT",
 						"EXPRESS",
