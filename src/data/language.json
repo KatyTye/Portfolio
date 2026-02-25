@@ -30,6 +30,21 @@
 			"projects": [
 				{
 					"icon": false,
+					"title": "Animals API",
+					"image": "./fox.svg",
+					"hover": "Click to visit",
+					"version": "None",
+					"created": "Wednesday, 18 February 2026",
+					"href": "https://github.com/KatyTye/animals_api",
+					"tags": [
+						"HTML",
+						"PHP",
+						"CSS"
+					],
+					"description": "An API built with vanilla PHP. I created this project as a personal learning exercise."
+				},
+				{
+					"icon": false,
 					"title": "HiFi Web Store",
 					"image": "./hifi.svg",
 					"hover": "Click to visit",
@@ -88,22 +103,6 @@
 						"CSS"
 					],
 					"description": "A pretty mobile app for food. Single person project. Build is completed and the updates will not continue."
-				},
-				{
-					"icon": false,
-					"title": "Squirrel API",
-					"image": "./squirrel.svg",
-					"hover": "Click to visit",
-					"version": "2.2.6",
-					"created": "Wednesday, 20 August 2025",
-					"href": "https://squirrel.daivdmajholt.me/api/squirrel",
-					"tags": [
-						"JAVASCRIPT",
-						"EXPRESS",
-						"AXIOS",
-						"CSS"
-					],
-					"description": "A simple API for getting random squirrel facts. Single person project. Major Version is completed but updates will continue."
 				}
 			]
 		},
@@ -313,6 +312,21 @@
 			"projects": [
 				{
 					"icon": false,
+					"title": "Animals API",
+					"image": "./fox.svg",
+					"hover": "Klik for at besøge",
+					"version": "None",
+					"created": "Onsdag, 18 februar 2026",
+					"href": "https://github.com/KatyTye/animals_api",
+					"tags": [
+						"HTML",
+						"PHP",
+						"CSS"
+					],
+					"description": "En API bygget med vanilla PHP. Jeg oprettede dette projekt som en personlig læringsøvelse."
+				},
+				{
+					"icon": false,
 					"title": "HiFi Webshop",
 					"image": "./hifi.svg",
 					"hover": "Klik for at besøge",
@@ -371,22 +385,6 @@
 						"CSS"
 					],
 					"description": "En flot mobilapp til mad. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
-				},
-				{
-					"icon": false,
-					"title": "Squirrel API",
-					"image": "./squirrel.svg",
-					"hover": "Klik for at besøge",
-					"version": "2.2.6",
-					"created": "Onsdag, 20 august 2025",
-					"href": "https://squirrel.daivdmajholt.me/api/squirrel",
-					"tags": [
-						"JAVASCRIPT",
-						"EXPRESS",
-						"AXIOS",
-						"CSS"
-					],
-					"description": "En simpel API til at hente tilfældige egernfakta. Projekt for én person. Det er færdigt, og opdateringerne fortsætter ikke."
 				}
 			]
 		},
@@ -540,6 +538,21 @@
 			"subtitle": "En liste over mine api projekter.",
 			"target": "projects",
 			"projects": [
+				{
+					"icon": false,
+					"title": "Animals API",
+					"image": "./fox.svg",
+					"hover": "Klik for at besøge",
+					"version": "None",
+					"created": "Onsdag, 18 februar 2026",
+					"href": "https://github.com/KatyTye/animals_api",
+					"tags": [
+						"HTML",
+						"PHP",
+						"CSS"
+					],
+					"description": "En API bygget med vanilla PHP. Jeg oprettede dette projekt som en personlig læringsøvelse."
+				},
 				{
 					"icon": false,
 					"title": "Squirrel API",
