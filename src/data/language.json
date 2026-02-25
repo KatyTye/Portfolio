@@ -258,6 +258,21 @@
 			"projects": [
 				{
 					"icon": false,
+					"title": "Animals API",
+					"image": "./fox.svg",
+					"hover": "Click to visit",
+					"version": "None",
+					"created": "Wednesday, 18 February 2026",
+					"href": "https://github.com/KatyTye/animals_api",
+					"tags": [
+						"HTML",
+						"PHP",
+						"CSS"
+					],
+					"description": "An API built with vanilla PHP. I created this project as a personal learning exercise."
+				},
+				{
+					"icon": false,
 					"title": "Squirrel API",
 					"image": "./squirrel.svg",
 					"hover": "Click to visit",
