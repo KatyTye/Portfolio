@@ -4,7 +4,7 @@
 	width: 95dvw
 	padding: 25px
 	margin: 30px auto
-	max-width: 1200px
+	max-width: 900px
 	transition: background 0.3s
 	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
 
@@ -19,7 +19,20 @@
 				font-weight: bold
 
 	&__title
+		display: flex
+		flex-wrap: wrap
 		font-weight: normal
+		align-items: center
+		justify-content: space-between
+
+		&-status
+			margin: 0 10px
+			padding: 5px 10px
+			font-size: 0.85rem
+			border-radius: 100px
+			text-transform: lowercase
+			color: var.$secondary-text-color
+			background: var.$primary-link-color
 
 	&__subtitle
 		font-size: 16px
@@ -27,16 +40,8 @@
 		font-weight: normal
 
 		&-status
-			width: 18px
-			height: 18px
+			width: 20px
+			height: 20px
 			margin-right: 10px
-			border-radius: 100px
 			display: inline-block
 			transform: translateY(3px)
-			border: 2px solid var.$primary-status-color
-
-			&.yellow
-				border: 2px solid var.$secondary-status-color
-
-			&.red
-				border: 2px solid var.$third-status-color
