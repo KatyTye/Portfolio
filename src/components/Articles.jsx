@@ -1,3 +1,4 @@
+import { BsFillMortarboardFill } from "react-icons/bs"
 import IndexJSON from "../data/language.json"
 
 export default function Articles({ language }) {
@@ -9,10 +10,17 @@ export default function Articles({ language }) {
 				if (selected.textID !== 1) return
 
 				return <article className={`content-article ${selected.article}-article`} key={`${selected.textID}-${selected.title}`}>
-					<h1 className="content-article__title">{selected.title}</h1>
+					<h1 className="content-article__title">
+						<span className="content-article__title-text">
+							{selected.title}
+						</span>
+
+						<span className="content-article__title-status">
+							{(language == "english" && "Expect delayed response" || "Forvent forsinket svar")}
+						</span>
+					</h1>
 					<h2 className="content-article__subtitle">
-						<span title={selected.subtitle.hover}
-							className={`content-article__subtitle-status ${selected.subtitle.colored && selected.subtitle.color}`}></span>
+						<BsFillMortarboardFill className="content-article__subtitle-status" />
 						{selected.subtitle.text}
 					</h2>
 					<p className="content-article__content">
