@@ -16,9 +16,7 @@ export default function Layout() {
 		<>
 			<Header />
 			<Outlet context={{ language, setLanguage }} />
-			<Footer />
-
-			<SwitchLanguage sprog={language} func={toggleLanguage} />
+			<Footer context={{ language, setLanguage }} />
 		</>
 	)
 }
