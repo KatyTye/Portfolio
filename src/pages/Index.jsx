@@ -13,12 +13,6 @@ export default function Index() {
 			<Languages />
 
 			<RecentSection language={language} />
-
-			<div className="main-content__old-portfolio">
-				<a href="/old/" className="main-content__old-portfolio-link" target="_blank">{
-					language === "english" ? "Visit Old Portfolio Site ➚" : "Besøg Gammel Portfolio Side ➚"
-				}</a>
-			</div>
 		</main>
 	)
 }
