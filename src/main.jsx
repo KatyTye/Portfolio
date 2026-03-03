@@ -8,6 +8,7 @@ import Index from './pages/Index.jsx'
 import Games from './pages/Games.jsx'
 import { StrictMode } from 'react'
 import "./styles/main.sass"
+import "./helpers/i18n.js"
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>

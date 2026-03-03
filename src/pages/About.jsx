@@ -1,76 +1,63 @@
 import { useOutletContext } from "react-router"
-import IndexJSON from "../data/language.json"
+import Articles from "../components/Articles"
 
 export default function About() {
 	const { language } = useOutletContext()
-	const selected = IndexJSON[language][2]
-	const articled = IndexJSON[language][4]
-	const secondselected = IndexJSON[language][3]
+
+	function returnProjects(name) {
+		const projects = [];
+		const amount = language(`${name}.amount`);
+
+		for (let i = 1; i < amount + 1; i++) {
+			const hasIcon = language(`${name}.items.${i}.icon`);
+
+			projects.push(
+				<figure className="content-section__project" key={`project-${language(`${name}.items.${i}.title`)}`}>
+					<img src={language(`${name}.items.${i}.image`)} alt="image of project"
+						className={language(`${name}.items.${i}.icon`) && "background" || "no-background"}></img>
+
+					<figcaption className="content-section__project-content">
+						<h4 className="content-section__project-title" title={language(`${name}.items.${i}.hover`)}>
+							<a href={language(`${name}.items.${i}.href`)} target="_blank"
+								className="content-section__link">{language(`${name}.items.${i}.title`)} &#10138;</a>
+						</h4>
+						<p className="content-section__project-type">
+							Version: <span>{language(`${name}.items.${i}.type`)}</span>
+						</p>
+						<p className="content-section__project-created">
+							Created: <span>{language(`${name}.items.${i}.created`)}</span>
+						</p>
+					</figcaption>
+				</figure>
+			);
+		}
+
+		return projects;
+	}
 
 	return (
 		<main className="main-content about">
-			<article className="content-article about-article">
-				<h1 className="content-article__title">{articled.title}</h1>
-				<p className="content-article__content special-content">
-					<span>{articled.places[0]} <span>{articled.list[0]}</span></span>
-					<span className="next">{articled.places[1]} <span>{articled.list[1]}</span></span>
-					<span className="next">{articled.places[2]} <span>{articled.list[2]}</span></span>
-				</p>
-			</article>
+			<Articles language={language} page="about" />
 
 			<section className="content-section latest-resumes">
 				<div className="content-section__content">
-					<h2 className="content-section__title">{selected.title}</h2>
-					<h3 className="content-section__subtitle">{selected.subtitle}</h3>
+					<h2 className="content-section__title">{language("resumes.title")}</h2>
+					<h3 className="content-section__subtitle">{language("resumes.subtitle")}</h3>
 				</div>
 
-				<div className="content-section__projects-list">
-					{selected.list.map((project) => {
-						return <figure className="content-section__project" key={`project-${project.title}`}>
-							<img src={project.image} alt="image of project" className={project.icon && "background" || "no-background"}></img>
-
-							<figcaption className="content-section__project-content">
-								<h4 className="content-section__project-title" title={`${project.hover} ${project.title}`}>
-									<a href={project.href} target="_blank"
-										className="content-section__link">{project.title} &#10138;</a>
-								</h4>
-								<p className="content-section__project-type">
-									Version: <span>{project.type}</span>
-								</p>
-								<p className="content-section__project-created">
-									Created: <span>{project.created}</span>
-								</p>
-							</figcaption>
-						</figure>
-					})}
+				<div className="content-section__projects-items">
+					{returnProjects("resumes")}
 				</div>
 			</section>
 
 			<section className="content-section latest-portfolios">
 				<div className="content-section__content">
-					<h2 className="content-section__title">{secondselected.title}</h2>
-					<h3 className="content-section__subtitle">{secondselected.subtitle}</h3>
+					<h2 className="content-section__title">{language("portfolios.title")}</h2>
+					<h3 className="content-section__subtitle">{language("portfolios.subtitle")}</h3>
 				</div>
 
-				<div className="content-section__projects-list">
-					{secondselected.list.map((project) => {
-						return <figure className="content-section__project" key={`project-${project.title}`}>
-							<img src={project.image} alt="image of project" className={project.icon && "background" || "no-background"}></img>
-
-							<figcaption className="content-section__project-content">
-								<h4 className="content-section__project-title" title={`${project.hover} ${project.title}`}>
-									<a href={project.href} target="_blank"
-										className="content-section__link">{project.title} &#10138;</a>
-								</h4>
-								<p className="content-section__project-type">
-									Version: <span>{project.type}</span>
-								</p>
-								<p className="content-section__project-created">
-									Created: <span>{project.created}</span>
-								</p>
-							</figcaption>
-						</figure>
-					})}
+				<div className="content-section__projects-items">
+					{returnProjects("portfolios")}
 				</div>
 			</section>
 		</main>

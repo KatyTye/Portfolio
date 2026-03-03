@@ -1,9 +1,9 @@
 import { useOutletContext } from "react-router"
-import IndexJSON from "../data/language.json"
+import IndexJSON from "../assets/languages/en.json"
 
 export default function Games() {
 	const { language } = useOutletContext()
-	const selected = IndexJSON[language][7]
+	const selected = IndexJSON[7]
 
 	return (
 		<main className="main-content games">

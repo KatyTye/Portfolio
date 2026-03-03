@@ -8,7 +8,7 @@ export default function Index() {
 
 	return (
 		<main className="main-content index">
-			<Articles language={language} />
+			<Articles language={language} page="intro" />
 
 			<Languages />
 
