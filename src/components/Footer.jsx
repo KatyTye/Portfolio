@@ -1,4 +1,15 @@
+import EnFlag from "../assets/icons/en.svg?react"
+import DaFlag from "../assets/icons/da.svg?react"
+
 export default function Footer({ language, change }) {
+
+	function changeLanguage() {
+		if (language == "en") {
+			change("da")
+		} else {
+			change("en")
+		}
+	}
 
 	return (
 		<footer className="bottom-content">
@@ -9,7 +20,10 @@ export default function Footer({ language, change }) {
 			</select>
 
 			<button className="bottom-content__language"
-				onClick={() => change("en")}>
+				onClick={() => changeLanguage()}>
+				{(language == "en" &&
+					<EnFlag /> || <DaFlag />
+				)}
 			</button>
 		</footer>
 	)
