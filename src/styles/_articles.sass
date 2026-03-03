@@ -8,6 +8,16 @@
 	transition: background 0.3s
 	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
 
+	&__links
+
+		&-button
+			width: 20px
+			height: 20px
+			margin-left: 10px
+			display: inline-block
+			transition: color 0.5s
+			color: light-dark(var.$primary-text-color, var.$secondary-text-color)
+
 	&__content
 		margin-top: 25px
 
@@ -26,7 +36,7 @@
 		justify-content: space-between
 
 		&-status
-			margin: 0 10px
+			margin: 0 0 0 10px
 			padding: 5px 10px
 			font-size: 0.85rem
 			border-radius: 100px
@@ -35,9 +45,11 @@
 			background: var.$primary-link-color
 
 	&__subtitle
+		display: flex
 		font-size: 16px
 		font-style: italic
 		font-weight: normal
+		justify-content: space-between
 
 		&-status
 			width: 20px
