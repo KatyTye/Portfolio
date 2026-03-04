@@ -1,3 +1,7 @@
 {
-	"liveServer.settings.port": 5501
+	"liveServer.settings.port": 5501,
+	"i18n-ally.localesPaths": [
+		"src/assets/languages"
+	],
+	"i18n-ally.keystyle": "nested"
 }

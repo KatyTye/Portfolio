@@ -1,0 +1,236 @@
+{
+  "type": "en",
+  "intro": {
+    "title": "David Kirk Bilsted Majholt",
+    "field": "",
+    "subtitle": {
+      "colored": true,
+      "color": "yellow",
+      "hover": "Please expect a delayed response.",
+      "text": "Currently studying at Roskilde Tekniske Skole. (Technical School)"
+    },
+    "content": {
+      "section1": "I'm a person with many skills, especially in web development, which I'm currently studying. I often work independently and can handle most tasks on my own, but I also enjoy working in groups when needed. My social skills allow me to communicate easily with others, though I sometimes take a couple of months to remember people's names.",
+      "section2": "My personal hobbies are closely related to my education - I spend much of my free time programming, mainly developing games on platforms like Roblox, Minecraft, and Steam."
+    }
+  },
+  "projects": {
+    "recent": {
+      "amount": 5,
+      "title": "Recent Projects",
+      "subtitle": "A list of my recent projects.",
+      "button": {
+        "showing": true,
+        "title": "Click here to see all my projects",
+        "link": "projects",
+        "text": "See all projects"
+      },
+      "list": {
+        "1": {
+          "href": "https://github.com/KatyTye/animals_api",
+          "tags": "HTML PHP CSS",
+          "icon": false,
+          "version": "None",
+          "image": "./fox.svg",
+          "title": "Animals API",
+          "hover": "Click to visit",
+          "created": "Wednesday, 18 February 2026",
+          "description": "An API built with vanilla PHP. I created this project as a personal learning exercise."
+        },
+        "2": {
+          "href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
+          "tags": "JAVASCRIPT EXPRESS REACT SASS",
+          "icon": false,
+          "image": "./hifi.svg",
+          "version": "5th Build",
+          "title": "HiFi Web Store",
+          "hover": "Click to visit",
+          "created": "Tuesday, 9 December 2025",
+          "description": "An online web store. 2 people project. Build is completed and updates will not continue."
+        },
+        "3": {
+          "href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
+          "tags": "JAVASCRIPT REACT SASS",
+          "icon": true,
+          "image": "./tic-tac-toe.svg",
+          "version": "1st Build",
+          "title": "Tic Tac Toe",
+          "hover": "Click to visit",
+          "created": "Tuesday, 4 November 2025",
+          "description": "A mini game on a website. Single person project. Build is completed and updates will not continue."
+        },
+        "4": {
+          "href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
+          "tags": "JAVASCRIPT REACT SASS",
+          "icon": false,
+          "image": "./newsify.svg",
+          "title": "Newsify",
+          "hover": "Click to visit",
+          "version": "1st Build",
+          "created": "Monday, 20 October 2025",
+          "description": "A newspaper website made with an API. Single person project. Build is completed and updates will not continue."
+        }
+      }
+    },
+    "react": {
+      "amount": 5,
+      "title": "React Projects",
+      "subtitle": "A list of my react projects.",
+      "items": {
+        "1": {
+          "href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
+          "tags": "JAVASCRIPT EXPRESS REACT SASS",
+          "icon": false,
+          "image": "./hifi.svg",
+          "title": "HiFi Web Store",
+          "hover": "Click to visit",
+          "version": "5th Build",
+          "created": "Tuesday, 9 December 2025",
+          "description": "An online web store. 2 people project. Build is completed and updates will not continue."
+        },
+        "2": {
+          "href": "https://rts-cmk.github.io/pet-finder-KatyTye/",
+          "tags": "JAVASCRIPT REACT SASS",
+          "icon": false,
+          "image": "./pet.svg",
+          "title": "Pet Finder",
+          "hover": "Click to visit",
+          "version": "4th Build",
+          "created": "Monday, 17 November 2025",
+          "description": "A pet website made with my API. One person project. It's finished and updates are not continuing."
+        },
+        "3": {
+          "href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
+          "tags": "JAVASCRIPT REACT SASS",
+          "icon": true,
+          "image": "./tic-tac-toe.svg",
+          "title": "Tic Tac Toe",
+          "hover": "Click to visit",
+          "version": "1st Build",
+          "created": "Tuesday, 4 November 2025",
+          "description": "A mini game on a website. Single person project. Build is completed and updates will not continue."
+        },
+        "4": {
+          "href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
+          "tags": "JAVASCRIPT REACT SASS",
+          "icon": false,
+          "image": "./newsify.svg",
+          "title": "Newsify",
+          "hover": "Click to visit",
+          "version": "1st Build",
+          "created": "Monday, 20 October 2025",
+          "description": "A newspaper website made with an API. Single person project. Build is completed and updates will not continue."
+        },
+        "5": {
+          "href": "https://rts-cmk.github.io/food-app-KatyTye/",
+          "tags": "JAVASCRIPT REACT CSS",
+          "icon": true,
+          "image": "./foodgo.svg",
+          "title": "FoodGo",
+          "hover": "Click to visit",
+          "version": "3rd Build",
+          "created": "Monday, 6 October 2025",
+          "description": "A pretty mobile app for food. Single person project. Build is completed and updates will not continue."
+        }
+      }
+    },
+    "api": {
+      "amount": 2,
+      "title": "API Projects",
+      "subtitle": "A list of my api projects.",
+      "items": {
+        "1": {
+          "href": "https://github.com/KatyTye/animals_api",
+          "tags": "HTML PHP CSS",
+          "icon": false,
+          "image": "./fox.svg",
+          "version": "None",
+          "title": "Animals API",
+          "hover": "Click to visit",
+          "created": "Wednesday, 18 February 2026",
+          "description": "An API built with vanilla PHP. I created this project as a personal learning exercise."
+        },
+        "2": {
+          "href": "https://squirrel.daivdmajholt.me/api/",
+          "tags": "JAVASCRIPT EXPRESS AXIOS SASS",
+          "icon": false,
+          "image": "./squirrel.svg",
+          "title": "Squirrel API",
+          "hover": "Click to visit",
+          "version": "2.2.6",
+          "created": "Wednesday, 20 August 2025",
+          "description": "A simple API for getting random squirrel facts. Single person project. Major version is completed but updates will continue."
+        }
+      }
+    }
+  },
+  "resumes": {
+    "amount": 3,
+    "title": "My Resumes",
+    "subtitle": "A list of my CVs through time.",
+    "items": {
+      "1": {
+        "icon": false,
+        "type": "latest",
+        "href": "./documents/CV.pdf",
+        "image": "./pdf.svg",
+        "title": "Current Resume",
+        "created": "Friday, 20 February 2026"
+      },
+      "2": {
+        "icon": false,
+        "type": "older",
+        "href": "./documents/old-CV.pdf",
+        "image": "./pdf.svg",
+        "title": "Roskilde Tekniske Skole. (Technical School)",
+        "created": "Tuesday, 22 April 2025"
+      },
+      "3": {
+        "icon": false,
+        "type": "older",
+        "href": "./documents/fgu-CV.pdf",
+        "image": "./pdf.svg",
+        "title": "FGU Nordvestsjælland",
+        "created": "2024"
+      }
+    }
+  },
+  "portfolios": {
+    "amount": 1,
+    "title": "My Portfolios",
+    "subtitle": "A list of my portfolios through time.",
+    "items": {
+      "1": {
+        "icon": false,
+        "type": "older",
+        "image": "./pdf.svg",
+        "href": "./documents/fgu-port.pdf",
+        "title": "FGU Nordvestsjælland",
+        "created": "2024"
+      }
+    }
+  },
+  "about": {
+    "title": "About me as david",
+    "field": "",
+    "subtitle": {
+      "colored": true,
+      "color": "yellow",
+      "hover": "Please expect a delayed response.",
+      "text": "Currently studying at Roskilde Tekniske Skole. (Technical School)"
+    },
+    "content": {
+      "section1": "I'm a person with many skills, especially in web development, which I'm currently studying. I often work independently and can handle most tasks on my own, but I also enjoy working in groups when needed. My social skills allow me to communicate easily with others, though I sometimes take a couple of months to remember people's names.",
+      "section2": "My personal hobbies are closely related to my education - I spend much of my free time programming, mainly developing games on platforms like Roblox, Minecraft, and Steam."
+    }
+  },
+  "games": {
+    "amount": 0,
+    "title": "Recent Games Created",
+    "subtitle": "A list of my games that I have made."
+  },
+  "websites": {
+    "new": "Latest website",
+    "old": "Old website"
+  }
+}

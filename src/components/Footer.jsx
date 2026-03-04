@@ -1,42 +1,30 @@
-import LinkedinIcon from "../assets/icons/linkedin.svg?react"
-import DiscordIcon from "../assets/icons/discord.svg?react"
-import GithubIcon from "../assets/icons/github.svg?react"
-import MailIcon from "../assets/icons/mail.svg?react"
+import EnFlag from "../assets/icons/en.svg?react"
+import DaFlag from "../assets/icons/da.svg?react"
 
-export default function Footer() {
+export default function Footer({ language, change }) {
+
+	function changeLanguage() {
+		if (language == "en") {
+			change("da")
+		} else {
+			change("en")
+		}
+	}
+
 	return (
 		<footer className="bottom-content">
-			<a href="mailto:d.boy.dragoz@gmail.com"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="bottom-content__button bottom-content__email"
-				title="Email">
-				<MailIcon />
-			</a>
+			<select name="version" className="bottom-content__version"
+				id="version" defaultValue={""} onChange={(val) => location.pathname = val.target.value}>
+				<option value="">Latest website</option>
+				<option value="old/index.html">Old website</option>
+			</select>
 
-			<a href="https://github.com/KatyTye"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="bottom-content__button bottom-content__github"
-				title="GitHub">
-				<GithubIcon />
-			</a>
-
-			<a href="https://www.linkedin.com/in/david-kirk-bilsted-majholt"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="bottom-content__button bottom-content__linkedin"
-				title="LinkedIn">
-				<LinkedinIcon />
-			</a>
-
-			<a href="https://discord.gg/uJ7nCM4QDy"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="bottom-content__button bottom-content__discord"
-				title="Discord">
-				<DiscordIcon />
-			</a>
+			<button className="bottom-content__language"
+				onClick={() => changeLanguage()}>
+				{(language == "en" &&
+					<EnFlag /> || <DaFlag />
+				)}
+			</button>
 		</footer>
 	)
 }
