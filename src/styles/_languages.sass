@@ -8,9 +8,14 @@
 	background: light-dark(var.$primary-box-color, var.$secondary-box-color)
 
 	&-wrapper
-		gap: 25px
-		display: grid
-		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr))
+		gap: 20px
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+
+		@media screen and (max-width: 1300px)
+			&
+				justify-content: space-evenly
 
 	&-title
 		font-size: 35px
@@ -18,20 +23,17 @@
 		margin-bottom: 15px
 
 	&-holder
-		gap: 10px
-		height: 50px
-		display: flex
 		align-items: center
+		display: inline-flex
 
 	&-icon
-		width: 50px
-		min-width: 50px
-		max-width: 75px
+		width: 30px
 
 	&-text
 		color: inherit
-		text-wrap: nowrap
+		margin-left: 10px
 		font-weight: bold
+		display: inline
 
 	@media screen and (max-width: 775px)
 		&-title
