@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://daivdmajholt.me/</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://daivdmajholt.me/about</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daivdmajholt.me/games</loc>
-    <lastmod>2026-02-20</lastmod>
+    <loc>https://daivdmajholt.me/projects</loc>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://daivdmajholt.me/projects</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://daivdmajholt.me/games</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.2</priority>
   </url>
   <url>
     <loc>https://daivdmajholt.me/old/</loc>
