@@ -7,11 +7,11 @@
       "colored": true,
       "color": "yellow",
       "hover": "Please expect a delayed response.",
-      "text": "Currently studying at Roskilde Tekniske Skole. (Technical School)"
+      "text": "Webdeveloper, graduated from Roskilde Tekniske Skole. (Technical School)"
     },
     "content": {
-      "section1": "I'm a person with many skills, especially in web development, which I'm currently studying. I often work independently and can handle most tasks on my own, but I also enjoy working in groups when needed. My social skills allow me to communicate easily with others, though I sometimes take a couple of months to remember people's names.",
-      "section2": "My personal hobbies are closely related to my education - I spend much of my free time programming, mainly developing games on platforms like Roblox, Minecraft, and Steam."
+      "section1": "I’m a versatile professional and a fully qualified web developer, having graduated from Roskilde Technical School. I’m comfortable working independently and handling most tasks on my own, but I also enjoy collaborating with others when needed. My social skills help me communicate easily with people, although it can sometimes take me a couple of months to remember their names.",
+      "section2": "My hobbies are closely connected to my education: I spend much of my free time programming and developing games for platforms such as Roblox, Minecraft, and Steam."
     }
   },
   "projects": {
@@ -27,6 +27,17 @@
       },
       "list": {
         "1": {
+          "href": "https://sessentials.org/",
+          "tags": "JAVA TYPESCRIPT REACT",
+          "icon": false,
+          "image": "https://sessentials.org/favicon.ico",
+          "title": "SEssentials",
+          "hover": "Click to visit",
+          "version": "0.3.7",
+          "created": "Sunday, 4 October 2026",
+          "description": "A plugin developed for servers, along with several websites, including a dashboard, API, admin panel, and a welcome page."
+        },
+        "2": {
           "href": "https://github.com/KatyTye/animals_api",
           "tags": "HTML PHP CSS",
           "icon": false,
@@ -37,7 +48,7 @@
           "created": "Wednesday, 18 February 2026",
           "description": "An API built with vanilla PHP. I created this project as a personal learning exercise."
         },
-        "2": {
+        "3": {
           "href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
           "tags": "JAVASCRIPT EXPRESS REACT SASS",
           "icon": false,
@@ -48,7 +59,7 @@
           "created": "Tuesday, 9 December 2025",
           "description": "An online web store. 2 people project. Build is completed and updates will not continue."
         },
-        "3": {
+        "4": {
           "href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": true,
@@ -58,26 +69,26 @@
           "hover": "Click to visit",
           "created": "Tuesday, 4 November 2025",
           "description": "A mini game on a website. Single person project. Build is completed and updates will not continue."
-        },
-        "4": {
-          "href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
-          "tags": "JAVASCRIPT REACT SASS",
-          "icon": false,
-          "image": "./newsify.svg",
-          "title": "Newsify",
-          "hover": "Click to visit",
-          "version": "1st Build",
-          "created": "Monday, 20 October 2025",
-          "description": "A newspaper website made with an API. Single person project. Build is completed and updates will not continue."
         }
       }
     },
     "react": {
-      "amount": 5,
+      "amount": 6,
       "title": "React Projects",
       "subtitle": "A list of my react projects.",
       "items": {
         "1": {
+          "href": "https://sessentials.org/",
+          "tags": "JAVA TYPESCRIPT REACT",
+          "icon": false,
+          "image": "https://sessentials.org/favicon.ico",
+          "title": "SEssentials",
+          "hover": "Click to visit",
+          "version": "0.3.7",
+          "created": "Sunday, 4 October 2026",
+          "description": "A plugin developed for servers, along with several websites, including a dashboard, API, admin panel, and a welcome page."
+        },
+        "2": {
           "href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
           "tags": "JAVASCRIPT EXPRESS REACT SASS",
           "icon": false,
@@ -88,7 +99,7 @@
           "created": "Tuesday, 9 December 2025",
           "description": "An online web store. 2 people project. Build is completed and updates will not continue."
         },
-        "2": {
+        "3": {
           "href": "https://rts-cmk.github.io/pet-finder-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": false,
@@ -99,7 +110,7 @@
           "created": "Monday, 17 November 2025",
           "description": "A pet website made with my API. One person project. It's finished and updates are not continuing."
         },
-        "3": {
+        "4": {
           "href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": true,
@@ -110,7 +121,7 @@
           "created": "Tuesday, 4 November 2025",
           "description": "A mini game on a website. Single person project. Build is completed and updates will not continue."
         },
-        "4": {
+        "5": {
           "href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": false,
@@ -121,7 +132,7 @@
           "created": "Monday, 20 October 2025",
           "description": "A newspaper website made with an API. Single person project. Build is completed and updates will not continue."
         },
-        "5": {
+        "6": {
           "href": "https://rts-cmk.github.io/food-app-KatyTye/",
           "tags": "JAVASCRIPT REACT CSS",
           "icon": true,
@@ -135,11 +146,22 @@
       }
     },
     "api": {
-      "amount": 2,
+      "amount": 3,
       "title": "API Projects",
       "subtitle": "A list of my api projects.",
       "items": {
         "1": {
+          "href": "https://api.sessentials.org/",
+          "tags": "TYPESCRIPT REACT",
+          "icon": false,
+          "image": "https://sessentials.org/favicon.ico",
+          "title": "SEssentials API",
+          "hover": "Click to visit",
+          "version": "1",
+          "created": "Unknown",
+          "description": "An API built to handle plugin requests and update information from the admin panel."
+        },
+        "2": {
           "href": "https://github.com/KatyTye/animals_api",
           "tags": "HTML PHP CSS",
           "icon": false,
@@ -150,7 +172,7 @@
           "created": "Wednesday, 18 February 2026",
           "description": "An API built with vanilla PHP. I created this project as a personal learning exercise."
         },
-        "2": {
+        "3": {
           "href": "https://squirrel.daivdmajholt.me/api/",
           "tags": "JAVASCRIPT EXPRESS AXIOS SASS",
           "icon": false,
@@ -217,11 +239,11 @@
       "colored": true,
       "color": "yellow",
       "hover": "Please expect a delayed response.",
-      "text": "Currently studying at Roskilde Tekniske Skole. (Technical School)"
+      "text": "Webdeveloper, graduated from Roskilde Tekniske Skole. (Technical School)"
     },
     "content": {
-      "section1": "I'm a person with many skills, especially in web development, which I'm currently studying. I often work independently and can handle most tasks on my own, but I also enjoy working in groups when needed. My social skills allow me to communicate easily with others, though I sometimes take a couple of months to remember people's names.",
-      "section2": "My personal hobbies are closely related to my education - I spend much of my free time programming, mainly developing games on platforms like Roblox, Minecraft, and Steam."
+      "section1": "I’m a versatile professional and a fully qualified web developer, having graduated from Roskilde Technical School. I’m comfortable working independently and handling most tasks on my own, but I also enjoy collaborating with others when needed. My social skills help me communicate easily with people, although it can sometimes take me a couple of months to remember their names.",
+      "section2": "My hobbies are closely connected to my education: I spend much of my free time programming and developing games for platforms such as Roblox, Minecraft, and Steam."
     }
   },
   "games": {
