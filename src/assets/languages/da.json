@@ -7,11 +7,11 @@
       "colored": true,
       "color": "yellow",
       "hover": "Forvent venligst et forsinket svar.",
-      "text": "Studerer i øjeblikket på Roskilde Tekniske Skole. \n(Teknisk Skole)"
+      "text": "Fuldt uddannet webudvikler fra Roskilde Tekniske Skole."
     },
     "content": {
-      "section1": "Jeg er en person med mange kompetencer, især inden for webudvikling, som jeg er i gang med at studere. \nJeg arbejder ofte selvstændigt og kan klare de fleste opgaver på egen hånd, men jeg nyder også at arbejde i grupper, når der er behov for det. \nMine sociale færdigheder giver mig mulighed for nemt at kommunikere med andre, selvom jeg nogle gange tager et par måneder på at huske folks navne.",
-      "section2": "Mine personlige hobbyer er tæt forbundet med min uddannelse - jeg bruger meget af min fritid på at programmere, primært på at udvikle spil på platforme som Roblox, Minecraft og Steam."
+      "section1": "Jeg er en person med mange kompetencer, især inden for webudvikling, som jeg har afsluttet min uddannelse i. Jeg arbejder ofte selvstændigt og kan klare de fleste opgaver på egen hånd, men jeg nyder også at arbejde i grupper, når der er behov for det. Mine sociale færdigheder gør det nemt for mig at kommunikere med andre, selvom det nogle gange tager mig et par måneder at huske folks navne.",
+      "section2": "Mine hobbyer hænger tæt sammen med min uddannelse: Jeg bruger meget af min fritid på at programmere og udvikle spil på platforme som Roblox, Minecraft og Steam."
     }
   },
   "projects": {
@@ -27,6 +27,17 @@
       },
       "list": {
         "1": {
+          "href": "https://sessentials.org/",
+          "tags": "JAVA TYPESCRIPT REACT",
+          "icon": false,
+          "image": "https://sessentials.org/favicon.ico",
+          "title": "SEssentials",
+          "hover": "Klik for at besøge",
+          "version": "0.3.7",
+          "created": "Søndag den 4. oktober 2026",
+          "description": "Et plugin udviklet til servere samt flere hjemmesider, herunder et dashboard, API, administrationspanel og en velkomstside."
+        },
+        "2": {
           "href": "https://github.com/KatyTye/animals_api",
           "tags": "HTML PHP CSS",
           "icon": false,
@@ -37,7 +48,7 @@
           "created": "Onsdag den 18. februar 2026",
           "description": "En API bygget med vanilla PHP. \nJeg lavede dette projekt som en personlig læringsøvelse."
         },
-        "2": {
+        "3": {
           "href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
           "tags": "JAVASCRIPT EXPRESS REACT SASS",
           "icon": false,
@@ -48,7 +59,7 @@
           "created": "Tirsdag den 9. december 2025",
           "description": "En netbutik. \n2 personers projekt. \nBuild er fuldført, og opdateringer fortsætter ikke."
         },
-        "3": {
+        "4": {
           "href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": true,
@@ -58,26 +69,26 @@
           "hover": "Klik for at besøge",
           "created": "Tirsdag den 4. november 2025",
           "description": "Et minispil på en hjemmeside. \nEnkeltmandsprojekt. \nBuild er fuldført, og opdateringer fortsætter ikke."
-        },
-        "4": {
-          "href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
-          "tags": "JAVASCRIPT REACT SASS",
-          "icon": false,
-          "image": "./newsify.svg",
-          "title": "Newsify",
-          "hover": "Klik for at besøge",
-          "version": "1. Byg",
-          "created": "Mandag den 20. oktober 2025",
-          "description": "En avis hjemmeside lavet med en API. \nEnkeltmandsprojekt. \nBuild er fuldført, og opdateringer fortsætter ikke."
         }
       }
     },
     "react": {
-      "amount": 5,
+      "amount": 6,
       "title": "React projekter",
       "subtitle": "En liste over mine reaktionsprojekter.",
       "items": {
-        "1": {
+          "1": {
+          "href": "https://sessentials.org/",
+          "tags": "JAVA TYPESCRIPT REACT",
+          "icon": false,
+          "image": "https://sessentials.org/favicon.ico",
+          "title": "SEssentials",
+          "hover": "Klik for at besøge",
+          "version": "0.3.7",
+          "created": "Søndag den 4. oktober 2026",
+          "description": "Et plugin udviklet til servere samt flere hjemmesider, herunder et dashboard, API, administrationspanel og en velkomstside."
+        },
+        "2": {
           "href": "https://rts-cmk.github.io/wu14-hifi-horizon-team-fubuki/",
           "tags": "JAVASCRIPT EXPRESS REACT SASS",
           "icon": false,
@@ -88,7 +99,7 @@
           "created": "Tirsdag den 9. december 2025",
           "description": "En netbutik. \n2 personers projekt. \nBuild er fuldført, og opdateringer fortsætter ikke."
         },
-        "2": {
+        "3": {
           "href": "https://rts-cmk.github.io/pet-finder-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": false,
@@ -99,7 +110,7 @@
           "created": "Mandag den 17. november 2025",
           "description": "Et kæledyrswebsted lavet med min API. \nEn persons projekt. \nDet er færdigt, og opdateringerne fortsætter ikke."
         },
-        "3": {
+        "4": {
           "href": "https://rts-cmk.github.io/tic-tac-toe-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": true,
@@ -110,7 +121,7 @@
           "created": "Tirsdag den 4. november 2025",
           "description": "Et minispil på en hjemmeside. \nEnkeltmandsprojekt. \nBuild er fuldført, og opdateringer fortsætter ikke."
         },
-        "4": {
+        "5": {
           "href": "https://rts-cmk.github.io/projekt-newsify-KatyTye/",
           "tags": "JAVASCRIPT REACT SASS",
           "icon": false,
@@ -121,7 +132,7 @@
           "created": "Mandag den 20. oktober 2025",
           "description": "En avis hjemmeside lavet med en API. \nEnkeltmandsprojekt. \nBuild er fuldført, og opdateringer fortsætter ikke."
         },
-        "5": {
+        "6": {
           "href": "https://rts-cmk.github.io/food-app-KatyTye/",
           "tags": "JAVASCRIPT REACT CSS",
           "icon": true,
@@ -135,11 +146,22 @@
       }
     },
     "api": {
-      "amount": 2,
+      "amount": 3,
       "title": "API projekter",
       "subtitle": "En liste over mine api-projekter.",
       "items": {
         "1": {
+          "href": "https://api.sessentials.org/",
+          "tags": "TYPESCRIPT REACT",
+          "icon": false,
+          "image": "https://sessentials.org/favicon.ico",
+          "title": "SEssentials API",
+          "hover": "Klik for at besøge",
+          "version": "1",
+          "created": "Ukendt",
+          "description": "En API, der håndterer forespørgsler fra plugins og opdaterer information fra administrationspanelet."
+        },
+        "2": {
           "href": "https://github.com/KatyTye/animals_api",
           "tags": "HTML PHP CSS",
           "icon": false,
@@ -150,7 +172,7 @@
           "created": "Onsdag den 18. februar 2026",
           "description": "En API bygget med vanilla PHP. \nJeg lavede dette projekt som en personlig læringsøvelse."
         },
-        "2": {
+        "3": {
           "href": "https://squirrel.daivdmajholt.me/api/",
           "tags": "JAVASCRIPT EXPRESS AXIOS SASS",
           "icon": false,
@@ -217,11 +239,11 @@
       "colored": true,
       "color": "yellow",
       "hover": "Forvent venligst et forsinket svar.",
-      "text": "Studerer i øjeblikket på Roskilde Tekniske Skole. \n(Teknisk Skole)"
+      "text": "Fuldt uddannet webudvikler fra Roskilde Tekniske Skole."
     },
     "content": {
-      "section1": "Jeg er en person med mange kompetencer, især inden for webudvikling, som jeg er i gang med at studere. \nJeg arbejder ofte selvstændigt og kan klare de fleste opgaver på egen hånd, men jeg nyder også at arbejde i grupper, når der er behov for det. \nMine sociale færdigheder giver mig mulighed for nemt at kommunikere med andre, selvom jeg nogle gange tager et par måneder på at huske folks navne.",
-      "section2": "Mine personlige hobbyer er tæt forbundet med min uddannelse - jeg bruger meget af min fritid på at programmere, primært på at udvikle spil på platforme som Roblox, Minecraft og Steam."
+      "section1": "Jeg er en person med mange kompetencer, især inden for webudvikling, som jeg har afsluttet min uddannelse i. Jeg arbejder ofte selvstændigt og kan klare de fleste opgaver på egen hånd, men jeg nyder også at arbejde i grupper, når der er behov for det. Mine sociale færdigheder gør det nemt for mig at kommunikere med andre, selvom det nogle gange tager mig et par måneder at huske folks navne.",
+      "section2": "Mine hobbyer hænger tæt sammen med min uddannelse: Jeg bruger meget af min fritid på at programmere og udvikle spil på platforme som Roblox, Minecraft og Steam."
     }
   },
   "games": {
